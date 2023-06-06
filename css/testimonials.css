@@ -1,0 +1,112 @@
+@import "./fonts.css";
+ .testimonials{
+    /* padding: 80px 0 90px;
+     */
+     position: relative;
+     background: url("../img/testimonial/testimonials_background.jpg");
+    /* height: calc(1520px + (867 - 1520) * ((100vw - 320px) / (1536 - 320)));
+     */
+}
+/*test*/
+ .test{
+     display: grid;
+     grid-template-columns: auto;
+     justify-content: center;
+     margin: 80px 20px 90px;
+}
+/*test*/
+/*testimonials Title */
+ .test > .testimonials__title{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     margin-bottom:70px;
+}
+ .test > .testimonials__title h2{
+     font-family: "CircularStdFont", serif;
+     font-size: calc(34px + (44 - 34) * ((100vw - 320px) / (1536 - 320)));
+     font-style: normal;
+     font-weight: bold;
+     letter-spacing: 0.714px;
+     line-height: 40.12px;
+     color:rgb(40, 37, 32);
+     text-transform: lowercase;
+}
+ .test > .testimonials__title h2::first-letter{
+     text-transform: capitalize;
+}
+/*-------------------------------------------*/
+/*Gallery*/
+ .test > .testimonials__gallery{
+     display: grid;
+}
+ .testimonials__gallery > img{
+     border-radius: 10px;
+     width:calc(232px + (329 - 232) * ((100vw - 320px) / (1536 - 320)));
+}
+ .testimonials__gallery > img:nth-child(1){
+     height: calc(310px + (442 - 310) * ((100vw - 320px) / (1536 - 320)));
+     margin-bottom: 70px;
+}
+ .testimonials__gallery > img:nth-child(2){
+     height: calc(129px + (184 - 129) * ((100vw - 320px) / (1536 - 320)));
+     margin-bottom: 20px;
+}
+ .testimonials__gallery > img:nth-child(3){
+     height: calc(170px + (241 - 170) * ((100vw - 320px) / (1536 - 320)));
+     margin-bottom: 70px;
+}
+ .testimonials__gallery > img:nth-child(4){
+     height: calc(185px + (263 - 185) * ((100vw - 320px) / (1536 - 320)));
+     margin-bottom: 20px;
+}
+ .testimonials__gallery > img:nth-child(5){
+     height: calc(113px + (161 - 113) * ((100vw - 320px) / (1536 - 320)));
+     margin-bottom: 20px;
+}
+/*------------------------------*/
+/*testimonials__footer*/
+ .testimonials__footer{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     margin-top: 50px;
+}
+ .testimonials__footer button{
+     font-weight: 600;
+     font-size: 14px;
+     font-style: normal;
+     line-height: 14px;
+     letter-spacing: normal;
+     text-transform: uppercase;
+     text-align: center;
+     color:rgb(40, 37, 32);
+     background-color: transparent;
+     width: 175px;
+     height: 46px;
+     border: 0.8px solid rgb(89,150,115);
+     border-radius: 34px;
+     cursor: pointer;
+     background-color: transparent;
+}
+ @media only screen and (min-width:768px) {
+     .testimonials__gallery{
+         grid-gap: 0px 80px;
+    }
+     .testimonials__gallery-horse{
+         grid-area: 1 / 1 / 5 / 3;
+    }
+     .testimonials__gallery-couple{
+         grid-area: 1 / 3 / 1 / 6;
+    }
+     .testimonials__gallery-mountains{
+         grid-area: 2 / 3 / 5 / 6;
+         margin-top: -70px;
+    }
+     .testimonials__gallery-lake{
+         grid-area: 1 / 6 / 2 / 6;
+    }
+     .testimonials__gallery-people{
+         grid-area: 2 / 6 / 5 / 6;
+    }
+}

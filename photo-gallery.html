@@ -1,6 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery</title>
-</head>  
+</head>
+
+<body>
+  <header data-include="partials/header.partial.html"></header>
+  <main>
+    <section class="gallery">
+      <h2 class="gallery__title">
+        Gallery
+      </h2>
+      <div>
+        <nav class="photo-gallery__nav">
+          <ul>
+            <li><a href="#" class="photo-gallery__nav-item">Summer</a></li>
+            <li><a href="#" class="photo-gallery__nav-item">Winter</a></li>
+            <li><a href="#" class="photo-gallery__nav-item">Spring</a></li>
+            <li><a href="#" class="photo-gallery__nav-item">Autumn</a></li>
+            <li><a href="#" class="photo-gallery__nav-item">Fishing</a></li>
+            <li><a href="#" class="photo-gallery__nav-item">SPA</a></li>
+          </ul>
+          <!--
+          <ul>
+            <li><a href="#">Summer</a></li>
+            <li><a href="#">Winter</a></li>
+            <li><a href="#">Spring</a></li>
+            <li><a href="#">Autumn</a></li>
+            <li><a href="#">Fishing</a></li>
+            <li><a href="#">SPA</a></li>
+          </ul>
+-->
+        </nav>
+      </div>
+    </section>
+    <section class="our-guests">
+      <h2 class="our-guests_title">
+        Our guests
+      </h2>
+      <div class="our-guests__carousel carousel">
+        <button class="carousel__btn-prev">
+          Prev
+        </button>
+        <div class="carousel__slide">
+          <img src="img/photo-gallery/5d0261a953591c002319f00b_optimized_1851_c1012x1283-303x1064.jpg" alt="Our guests">
+        </div>
+        <div class="carousel__slide">
+          <img src="img/photo-gallery/5d0261a953591c002319f00b_optimized_1851_c1012x1283-303x1064.jpg" alt="Our guests">
+        </div>
+        <!--        
+        <div class="carousel__slide">
+          <img src="img/photo-gallery/5d0261a953591c002319f00b_optimized_1851_c1012x1283-303x1064.jpg" alt="Our guests">
+        </div>
+        <div class="carousel__slide">
+          <img src="img/photo-gallery/5d0261a953591c002319f00b_optimized_1851_c1012x1283-303x1064.jpg" alt="Our guests">
+        </div>
+        <div class="carousel__slide">
+          <img src="img/photo-gallery/5d0261a953591c002319f00b_optimized_1851_c1012x1283-303x1064.jpg" alt="Our guests">
+        </div>
+-->
+        <button class="carousel__btn-next">
+          Next
+        </button>
+      </div>
+    </section>
+
+  </main>
+  <footer data-include="partials/footer.partial.html"></footer>
+  <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+
 </html>
+<!--
+  git add .
+  git commit -m "update photo-gallery.html; add img/photo-gallery; update header.partial.html (link to photo-gallery)"
+  *git pull
+  git push
+-->
