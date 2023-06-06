@@ -3,7 +3,7 @@
 
     /* padding: 80px 0 90px; */
     position: relative;
-    background: url("../img/testimonials_background.jpg");
+    background: url("../img/testimonial/testimonials_background.jpg");
     /* height: calc(1520px + (867 - 1520) * ((100vw - 320px) / (1536 - 320))); */
 
 }
