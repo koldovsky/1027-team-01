@@ -1,2 +1,4 @@
+@import "./reset.css";
+@import "./global.css";
 @import "./rentals.css";
 @import "./testimonials.css";
