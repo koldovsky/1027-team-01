@@ -18,18 +18,29 @@ a {
     font-size: 40px;
 }
 
+.rentals__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rentals__row {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
 .rentals__card {
     width: 40%;
-    margin: 40px;
-    display: inline-block;
-    box-sizing: border-box;
-  }
-  
-  @media (max-width: 767px) {
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+@media (min-width: 769px) {
     .rentals__card {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 .card__river {
     background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/river_chalet.jpeg");
@@ -37,6 +48,7 @@ a {
     border-radius: 2%;
     background-size: cover;
     margin: auto;
+    height: 400px;
 }
 
 .card__lookout {
@@ -44,6 +56,7 @@ a {
     border-radius: 2%;
     background-size: cover;
     margin: auto;
+    height: 400px;
 
 }
 
@@ -52,6 +65,7 @@ a {
     border-radius: 2%;
     background-size: cover;
     margin: auto;
+    height: 400px;
 }
 
 .card__haven {
@@ -59,6 +73,7 @@ a {
     border-radius: 2%;
     background-size: cover;
     margin: auto;
+    height: 400px;
 }
 
 
@@ -90,7 +105,8 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    padding: 40px 20px;
 }
 
 .rentals__button .button-all {
@@ -103,6 +119,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
+    
 }
 
 .rentals__button .button-all:hover {
