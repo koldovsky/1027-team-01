@@ -1,0 +1,121 @@
+.rentals {
+    position: relative;
+    background: url("../img/rentals/background_rentals.jpeg");
+    background-size: cover;
+}
+
+.rentals__title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.rentals__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rentals__row {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.rentals__card {
+    width: 40%;
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+@media (min-width: 769px) {
+    .rentals__card {
+        width: 100%;
+    }
+}
+
+.card__river {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/river_chalet.jpeg");
+    background-size: contain;
+    border-radius: 2%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+
+.card__lookout {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/lookout_lodge.jpeg");
+    border-radius: 2%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+
+}
+
+.card__smoky {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/smoky_chalet.jpeg");
+    border-radius: 2%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+
+.card__haven {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/mountian_haven.jpeg");
+    border-radius: 2%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card__button .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card__button .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.rentals__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 40px 20px;
+}
+
+.rentals__button .button-all {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.rentals__button .button-all:hover {
+    background-color: white;
+    color: black;
+}

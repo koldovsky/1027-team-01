@@ -1,4 +1,6 @@
 @import "./fonts.css";
+
+
  .testimonials{
     /* padding: 80px 0 90px;
      */
@@ -22,10 +24,11 @@
      margin-bottom:70px;
 }
  .testimonials__content > .testimonials__title h2{
-     font-family: "CircularStdFont", serif;
+    font-family: "Circular Std", serif;
+    font-weight: 500;
+    font-style: normal;
      font-size: calc(34px + (44 - 34) * ((100vw - 320px) / (1536 - 320)));
-     font-style: normal;
-     font-weight: bold;
+     /* font-style: normal; */
      letter-spacing: 0.714px;
      line-height: 40.12px;
      color:rgb(40, 37, 32);
