@@ -4,13 +4,6 @@
     background-size: cover;
 }
 
-.rentals h2,
-h3,
-p,
-a {
-    color: white;
-}
-
 .rentals__title {
     text-align: center;
     padding-top: 100px;
