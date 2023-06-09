@@ -1,7 +1,56 @@
+@import "./fonts.css";
+
 .rentals {
     position: relative;
     background: url("../img/rentals/background_rentals.jpeg");
     background-size: cover;
+}
+
+.rentals h2{
+    font-family: "Circular Std", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white; 
+}
+.rentals h3{
+    font-family: "Circular Std", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white; 
+}
+
+.card__price{
+    font-size: 35px;
+    font-family: "Circular Std", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white; 
+}
+
+.card__name{
+    font-size: 20px;
+    font-family: "Circular Std", serif;
+    font-weight: 200;
+    color: white; 
+    margin-top: 25px;
+}
+
+.card__info{
+    font-size: 15px;
+    font-family: "Circular Std", serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: white; 
+}
+
+.card__button a{
+    font-family: "Circular Std", serif;
+    font-size: 12px;
+}
+
+.rentals__button a{
+    font-family: "Circular Std", serif;
+    font-size: 12px;
 }
 
 .rentals__title {
@@ -15,6 +64,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .rentals__row {
@@ -41,7 +91,13 @@
     border-radius: 2%;
     background-size: cover;
     margin: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 52px 31px;
+   
 }
 
 .card__lookout {
@@ -49,7 +105,12 @@
     border-radius: 2%;
     background-size: cover;
     margin: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 52px 31px;
 
 }
 
@@ -58,7 +119,13 @@
     border-radius: 2%;
     background-size: cover;
     margin: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 52px 31px;
 }
 
 .card__haven {
@@ -66,7 +133,13 @@
     border-radius: 2%;
     background-size: cover;
     margin: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 52px 31px;
 }
 
 
@@ -80,10 +153,10 @@
 .card__button .button {
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid white;
+    
     border-radius: 20px;
     color: white;
-    background-color: transparent;
+    background-color: #f98250;
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
@@ -92,6 +165,7 @@
 .card__button .button:hover {
     background-color: white;
     color: black;
+   
 }
 
 .rentals__button {
@@ -112,7 +186,7 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
-    
+
 }
 
 .rentals__button .button-all:hover {
