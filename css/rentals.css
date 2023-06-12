@@ -2,157 +2,148 @@
     position: relative;
     background: url("../img/rentals/background_rentals.jpeg");
     background-size: cover;
-}
-
-.rentals h2{
-    font-family: "Circular Std", serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white; 
-}
-.rentals h3{
-    font-family: "Circular Std", serif;
-    font-weight: 200;
-    font-style: normal;
-    color: white; 
-}
-
-.card__price{
-    font-size: 35px;
-    font-family: "Circular Std", serif;
-    font-weight: 200;
-    font-style: normal;
-    color: white; 
-}
-
-.card__name{
-    font-size: 20px;
-    font-family: "Circular Std", serif;
-    font-weight: 200;
-    color: white; 
-    margin-top: 25px;
-}
-
-.card__info{
-    font-size: 15px;
-    font-family: "Circular Std", serif;
-    font-weight:lighter;
-    font-style: normal;
-    color: white; 
-}
-
-.card__button a{
-    font-family: "Circular Std", serif;
-    font-size: 12px;
-}
-
-.rentals__button a{
-    font-family: "Circular Std", serif;
-    font-size: 12px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .rentals__title {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
-    font-size: 40px;
+}
+
+.rentals h2 {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 34px;
+
+
 }
 
 .rentals__container {
     display: flex;
-    justify-content: center;
+    position: relative;
     flex-wrap: wrap;
-
-}
-
-.rentals__row {
-    display: flex;
-    justify-content: center;
-    width: 80%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .rentals__card {
-    width: 40%;
-    margin: 10px;
-    box-sizing: content-box;
+    margin-top: 50px;
+    width: 100%;
 }
 
-@media (min-width: 769px) {
-    .rentals__card {
-        width: 100%;
-    }
+
+.card__price {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 34px;
+}
+
+.card__name {
+    font-size: 22px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 25px;
+}
+
+.card__info {
+    font-size: 16px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    margin-top: 5px;
+}
+
+.card__button a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    text-decoration-style: solid;
+}
+
+.rentals__button a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    text-decoration-style: solid;
 }
 
 .card__river {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/river_chalet.jpeg");
+    background-image: linear-gradient(to right, rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8)), url("../img/rentals/river_chalet.jpeg");
+    background-position-x: 50%;
+    background-position-y: 50%;
     background-size: contain;
-    border-radius: 2%;
+    border-radius: 10px;
     background-size: cover;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 52px 31px;
-   
+    padding: 43px 29px;
+
 }
 
 .card__lookout {
-    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/lookout_lodge.jpeg");
-    border-radius: 2%;
+    background: linear-gradient(to right, rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8)), url("../img/rentals/lookout_lodge.jpeg");
+    background-position: 50%;
+    border-radius: 10px;
     background-size: cover;
-    margin: auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 52px 31px;
+    padding: 43px 29px;
 
 }
 
 .card__smoky {
-    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/smoky_chalet.jpeg");
-    border-radius: 2%;
+    background: linear-gradient(to right, rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8)), url("../img/rentals/smoky_chalet.jpeg");
+    background-position: 50%;
+    border-radius: 10px;
     background-size: cover;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
-    padding: 52px 31px;
+    padding: 43px 29px;
 }
 
 .card__haven {
-    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/rentals/mountian_haven.jpeg");
-    border-radius: 2%;
+    background: linear-gradient(to right, rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8)), url("../img/rentals/mountian_haven.jpeg");
+    background-position: 50%;
+    border-radius: 10px;
     background-size: cover;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
-    padding: 52px 31px;
+    padding: 43px 29px;
 }
-
 
 .card__button {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 35px;
+
 }
 
 .card__button .button {
     display: inline-block;
-    padding: 10px 20px;
-    
-    border-radius: 20px;
+    padding: 16px 24px;
+    border-radius: 34px;
     color: white;
     background-color: #f98250;
     text-decoration: none;
@@ -163,22 +154,20 @@
 .card__button .button:hover {
     background-color: white;
     color: black;
-   
+
 }
 
 .rentals__button {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    padding: 40px 20px;
+    margin-top: 50px;
 }
 
 .rentals__button .button-all {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 16px 24px;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 34px;
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -190,4 +179,56 @@
 .rentals__button .button-all:hover {
     background-color: white;
     color: black;
+}
+
+@media (min-width: 767px) {
+    .rentals {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .rentals__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:30px;
+        align-items: center;
+    }
+    .card__river {
+        padding: 52px 31px;
+    }
+    .card__lookout {
+        padding: 52px 31px;
+    }
+    .card__smoky {
+        padding: 52px 31px;
+        margin-top: -50px;
+    }
+    .card__haven {
+        padding: 52px 31px;
+        margin-top: -50px;
+    }
+    .card__price{
+        margin-top: 45px;
+        font-size: 44px;
+    }
+    .card__name{
+        margin-top: 30px;
+    }
+    .card__button {
+        margin-top: 40px;
+    }
+}
+@media (min-width: 992px) {
+    .card__river {
+        padding: 70px 35px;
+    }
+    .card__lookout {
+        padding: 70px 35px;
+    }
+    .card__smoky {
+        padding: 70px 35px;
+    }
+    .card__haven {
+        padding: 70px 35px;
+    }
+   
 }
