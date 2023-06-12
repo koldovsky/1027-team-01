@@ -1,0 +1,23 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*::before,
+*::after {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+:root {
+	scroll-behavior: smooth;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-family: 'PT Serif', serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
