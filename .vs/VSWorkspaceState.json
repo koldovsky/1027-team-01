@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img",
+    "\\css",
+    "\\fonts",
     "\\partials"
   ],
+  "SelectedNode": "\\css\\fonts.css",
   "PreviewInSolutionExplorer": false
 }
