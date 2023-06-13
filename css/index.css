@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-@import "./testimonials.css";
-@import "./shop.css";
-=======
-/*@import "./testimonials.css";*/
-@import "./shop-cafe.css";
->>>>>>> d5901ff85136aef82dc24736601e39dd9e441b84
 @import "./reset.css";
 @import "./global.css";
 @import "./header.css";
 @import "./rentals.css";
+@import "./shop.css";
 @import "./testimonials.css";
 @import "./photo-gallery.css";
