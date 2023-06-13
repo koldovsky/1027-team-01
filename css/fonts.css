@@ -11,17 +11,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Circular Std';
-    src: url('../fonts/CircularStd__font/CircularStd-Black.eot');
-    src: local('Circular Std Black'), local('../fonts/CircularStd__font/CircularStd-Black'),
-        url('../fonts/CircularStd__font/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/CircularStd__font/CircularStd-Black.woff2') format('woff2'),
-        url('../fonts/CircularStd__font/CircularStd-Black.woff') format('woff'),
-        url('../fonts/CircularStd__font/CircularStd-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Circular Std';
