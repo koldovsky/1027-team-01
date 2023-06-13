@@ -1,10 +1,67 @@
-
-
 .section-food {
   position: relative;
   background-image: url(../img/BackgroundShop-Cafe.jpeg);
- background-size: cover; 
- 
+  background-size: contain;
+  padding-top: 105px;
+  padding-bottom: 110px;
+  color: #fff;
 }
 
+.section-food__container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-text__wrapper {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25.6px;
+  padding: 0 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.section-food__card-grid {
+  padding-top: 105px;
+  padding-bottom: 110px;
+  min-width: 320px;
+  font-family: 'woff2';
+  font-size: 16px;
+}
+
+.section-food__title {
+  font-family: serif;
+  font-size: 44px;
+  font-weight: 700;
+
+}
+
+.section-food__subtitle {
+  font-family: serif;
+  font-size: 19px;
+  font-weight: 400px;
+  color: rgb(209, 209, 209);
+  line-height: 30.04px;
+  padding-top: 28px;
+}
+
+.section-food__columns {
+  /* padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 33px;
+  margin-right: 33px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+
+.image-card__image {
+  object-fit: cover;
+}
 
