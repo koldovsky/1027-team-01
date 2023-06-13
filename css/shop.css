@@ -1,7 +1,7 @@
 .section-food {
   position: relative;
   background-image: url(../img/BackgroundShop-Cafe.jpeg);
-  background-size: contain;
+  background-size: cover;
   padding-top: 105px;
   padding-bottom: 110px;
   color: #fff;
@@ -17,6 +17,7 @@
 
 .header-text__wrapper {
   font-size: 16px;
+  font-style: normal;
   text-align: center;
   line-height: 25.6px;
   padding: 0 24px;
@@ -30,38 +31,89 @@
   padding-top: 105px;
   padding-bottom: 110px;
   min-width: 320px;
-  font-family: 'woff2';
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
   font-size: 16px;
 }
 
 .section-food__title {
-  font-family: serif;
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
   font-size: 44px;
   font-weight: 700;
 
 }
 
 .section-food__subtitle {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
   font-family: serif;
+  box-sizing: border-box;
+  font-style: normal;
   font-size: 19px;
   font-weight: 400px;
   color: rgb(209, 209, 209);
   line-height: 30.04px;
   padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .section-food__columns {
-  /* padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 33px;
-  margin-right: 33px; */
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
+.image-card {
+  background-color: rgba(255, 255, 255, 0.11);
+  display: block;
+  background-size: auto;
+  height: 464.496px;
+  border-radius: 10px;
+  border-style: none;
+  width: 463px;
+  height: 443px;
 
-.image-card__image {
-  object-fit: cover;
+
+
 }
 
+.image-card__image {
+  width: 505.02px;
+  height: 286.793px;
+  border-radius: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 15px 15px;
+
+
+}
+
+.image-card__title {
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.image-card__body {
+  color: rgb(189, 189, 189);
+  size: 16px;
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 420px;
+  height: 95px;
+  display: block;
+  border-style: none;
+  letter-spacing: normal;
+  display: block;
+  text-align: center;
+}
