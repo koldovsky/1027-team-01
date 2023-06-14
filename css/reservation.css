@@ -1,13 +1,3 @@
-section-reserv {
-      background-image: url('img/reserv.jpg');
-      background-size: cover;
-      background-position: center center;
-      height: 100vh; /* Adjust the height as needed */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
 container-reserv {
       max-width: 513px;
       max-height: 711px;
@@ -29,7 +19,17 @@ container-reserv {
       text-align: center;
       font-family: 'Circular Std', sans-serif;
     }
-  
+
+section-reserv {
+      background-image: url('img/reserv.jpg');
+      background-size: cover;
+      background-position: center center;
+      height: 100vh; /* Adjust the height as needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 .container-reserv input[type="text"],
 .container-reserv input[type="tel"],
 .container-reserv input[type="number"],
