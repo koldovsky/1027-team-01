@@ -1,27 +1,38 @@
-.container-reserv {
+.section-reserv {
     background-image: url("../img/reserv.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+  
+  .container-reserv {
     max-width: 513px;
+    max-height: 711px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container-reserv .container-reserv-content {
-    padding: 50px;
-}
+  }
 
 .container-reserv h1 {
     text-align: center;
     font-family: 'Circular Std', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .container-reserv h3 {
     color: #888;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     font-family: 'Circular Std', sans-serif;
+    font-weight: bold;
 }
 
 .container-reserv input[type="text"],
@@ -35,7 +46,7 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 20px;
-    font-family: 'Circular Std', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-reserv button {
@@ -47,9 +58,12 @@
     cursor: pointer;
     width: 100%;
     border-radius: 20px;
-    font-family: 'Circular Std', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.5s;
 }
 
 .container-reserv button:hover {
     background-color: #45a049;
+    transition: background-color 0.3s;
 }
+
