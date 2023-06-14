@@ -41,6 +41,7 @@
   font-style: normal;
   font-size: 44px;
   font-weight: 700;
+  line-height: 1.15;
 
 }
 
@@ -60,41 +61,26 @@
 }
 
 .section-food__columns {
-
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
 }
 
 .image-card {
   background-color: rgba(255, 255, 255, 0.11);
   display: block;
-  background-size: auto;
-  height: 464.496px;
   border-radius: 10px;
-  border-style: none;
-  width: 463px;
-  height: 443px;
-
-
-
+  padding: 20px;
 }
 
 .image-card__image {
-  width: 505.02px;
-  height: 286.793px;
-  border-radius: inherit;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 20px;
-  padding: 15px 15px;
-
-
+  border-radius: 10px;
 }
 
 .image-card__title {
   font-family: 'Circular Std', sans-serif;
-  font-style: normal;
-  display: block;
   text-align: center;
   font-weight: 500;
   font-size: 25px;
@@ -104,16 +90,13 @@
 
 .image-card__body {
   color: rgb(189, 189, 189);
-  size: 16px;
   font-family: 'Circular Std', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
-  width: 420px;
-  height: 95px;
-  display: block;
-  border-style: none;
-  letter-spacing: normal;
-  display: block;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-food__columns {
+    grid-template-columns: 1fr 1fr;
+  }
 }
