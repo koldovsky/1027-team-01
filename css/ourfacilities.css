@@ -13,3 +13,9 @@
     font-style: normal;
     color: rgb(40 37 32);
 }
+
+.ourfacilities__photo-forest {
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 50px;
+}
