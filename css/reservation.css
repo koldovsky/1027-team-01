@@ -1,4 +1,4 @@
-section {
+.section-reserv {
       background-image: url('img/reserv.jpg');
       background-size: cover;
       background-position: center center;
@@ -26,6 +26,8 @@ container-reserv {
       color: #888;
       font-size: 16px;
       text-align: center;
+      
+    }
   
 .container-reserv input[type="text"],
 .container-reserv input[type="tel"],
