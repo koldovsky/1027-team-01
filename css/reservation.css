@@ -1,3 +1,13 @@
+#reserv2 {
+      background-image: url('img/reserv.jpg');
+      background-size: cover;
+      background-position: center center;
+      height: 100vh; /* Adjust the height as needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 container-reserv {
       max-width: 513px;
       max-height: 711px;
@@ -30,7 +40,7 @@ container-reserv {
       border-radius: 4px;
     }
 
-    .container-reserv button {
+.container-reserv button {
       background-color: #f98250;
       color: #fff;
       padding: 14px 20px;
@@ -41,16 +51,6 @@ container-reserv {
       border-radius: 4px;
     }
 
-    .container-reserv button:hover {
+.container-reserv button:hover {
       background-color: #45a049;
-    }
-    
-    #reserv2 {
-      background-image: url('img/reserv.jpg');
-      background-size: cover;
-      background-position: center center;
-      height: 100vh; /* Adjust the height as needed */
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
