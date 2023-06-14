@@ -1,13 +1,8 @@
 .reservation{
     position:relative;
-    width:200px;
-    height:150px;
-    overflow:hidden;
   }
 
 img{
     position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-size: 100%;
   }
