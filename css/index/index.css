@@ -1,4 +1,4 @@
-@import "./global.css";
+@import "../global.css";
 @import "./header.css";
 @import "./rentals.css";
 @import "./getfullanswer.css";
@@ -6,7 +6,7 @@
 @import "./shop.css";
 @import "./testimonials.css";
 @import "./reservation.css";
-@import "./photo-gallery.css";
+@import "../photo-gallery/photo-gallery.css";
 
-@import "./fonts.css";
-@import "./reset.css";
+@import "../fonts.css";
+/* @import "./reset.css"; */
