@@ -1,3 +1,4 @@
+@import "./fonts.css";
 @import "./reset.css";
 @import "./global.css";
 @import "./header.css";
@@ -5,4 +6,10 @@
 @import "./shop.css";
 @import "./testimonials.css";
 @import "./photo-gallery.css";
+<<<<<<< HEAD
 @import "./fonts.css"
+=======
+@import "./getfullanswer.css";
+@import "./ourfacilities.css";
+@import "./reservation.css";
+>>>>>>> 1034d388be5f46abb08175d72b7c009f26125aa1

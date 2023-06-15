@@ -1,0 +1,21 @@
+.ourfacilities {
+    background-image: url("../img/backgroundOurFacilities.jpg");
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ourfacilities__title h2 {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    color: rgb(40 37 32);
+}
+
+.ourfacilities__photo-forest {
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 50px;
+}
