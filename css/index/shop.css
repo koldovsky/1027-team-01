@@ -1,0 +1,102 @@
+.section-food {
+  position: relative;
+  background-image: url(../img/BackgroundShop-Cafe.jpeg);
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 110px;
+  color: #fff;
+}
+
+.section-food__container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-text__wrapper {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  line-height: 25.6px;
+  padding: 0 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.section-food__card-grid {
+  padding-top: 105px;
+  padding-bottom: 110px;
+  min-width: 320px;
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.section-food__title {
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.15;
+
+}
+
+.section-food__subtitle {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: serif;
+  box-sizing: border-box;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 400px;
+  color: rgb(209, 209, 209);
+  line-height: 30.04px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.section-food__columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.image-card {
+  background-color: rgba(255, 255, 255, 0.11);
+  display: block;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.image-card__image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-card__title {
+  font-family: 'Circular Std', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.image-card__body {
+  color: rgb(189, 189, 189);
+  font-family: 'Circular Std', sans-serif;
+  line-height: 26px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-food__columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
