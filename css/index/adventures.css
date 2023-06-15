@@ -1,0 +1,54 @@
+.adventures
+{
+  background-image: url("../../img/adventures/adventures_background.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+.adventures__title
+{
+  font-family: 'Circular Std', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+.adventures__text
+{
+  color:#848484;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  max-width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+    
+}
+
+.adventures__places h3
+{
+  color:#282520;
+  font-family: 'Circular Std', serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.adventures__places {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); 
+  max-width: 1200px;
+  justify-items: center;
+  margin: auto;
+}
+
+.adventures__places-item img {
+  border-radius: 4%;
+  width: 100%;
+  object-fit: cover;
+}
+.adventures__places-item
+{
+  margin: 38px;
+  
+}
+
+
