@@ -52,6 +52,7 @@ p {
 .photo-gallery__nav {
   display: flex;
   justify-content: center;
+
 }
 
 .photo-gallery__nav ul {
@@ -114,4 +115,15 @@ p {
 .photo-gallery__grid-layout-ls-rb>.photo-gallery__item:last-child {
   grid-row: span 2;
   grid-column: 2;
+}
+
+@media (max-width: 500px) {
+
+  .photo-gallery__nav {
+    display: flex;
+  }
+  .photo-gallery__nav ul {
+    
+    flex-direction: column;
+  }  
 }
