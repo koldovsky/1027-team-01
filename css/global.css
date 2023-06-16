@@ -3,6 +3,15 @@
 	font-family: 'PT Serif', serif;
 	--title-h2-font-family: "Circular Std", serif;
 	--getfullanswer-title-color: #fff;
+	--getfullanswer-buttoncallus-background-color: #f98250;
+	--getfullanswer-buttoncallushover-background-color: #FFFFFF;
+	--getfullanswer-buttoncallus-text-color: #FFFFFF;
+	--getfullanswer-buttoncallushover-text-color: #282520;
+	--getfullanswer-buttonreservation-background-color: none;
+	--getfullanswer-buttonreservation-hover-background-color: #FFFFFF;
+	--getfullanswer-buttonreservation-text-color: #FFFFFF;
+	--getfullanswer-buttonreservation-hover-text-color: #000000;
+	--getfullanswer-buttonreservation-border-color: #FFFFFF;
 	--ourfacilities-title-color: #282520;
 }
 
