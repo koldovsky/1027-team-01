@@ -1,7 +1,30 @@
+@import "../global.css";
+@import "../index/header.css";
+@import "../fonts.css";
+
 #photo-gallery-page * {
   outline: 1px solid red;
   /*    padding: 5px;*/
-  background-color: red;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 .centered {
@@ -20,14 +43,10 @@
 }
 
 .photo-gallery__nav-item {
-  margin-right: 10px;
+  color: black;/*потрібен main-color*/
+  font-size: 1.5rem;/*потрібна змінна*/
+  margin: 5px; 
 }
-
-.photo-gallery__nav-item:last-child {
-  margin-right: 0;
-}
-
-/**/
 
 .photo-gallery__container {
   display: grid;
@@ -38,48 +57,41 @@
 .photo-gallery__grid-layout-lb-rs {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 1px;
 }
 
-.photo-gallery__grid-layout-lb-rs .photo-gallery__image {
+.photo-gallery__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 25px;
 }
 
-.photo-gallery__grid-layout-lb-rs > .photo-gallery__item:first-child {
+.photo-gallery__grid-layout-lb-rs>.photo-gallery__item:first-child {
   grid-row: span 2;
 }
 
 .photo-gallery__grid-layout-ls-rb {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 1px;
 }
 
-.photo-gallery__grid-layout-ls-rb .photo-gallery__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 25px;
-}
-
-.photo-gallery__grid-layout-ls-rb > .photo-gallery__item:first-child {
+.photo-gallery__grid-layout-ls-rb>.photo-gallery__item:first-child {
   grid-row: 1;
   grid-column: 1;
 }
 
-.photo-gallery__grid-layout-ls-rb > .photo-gallery__item:first-child + .photo-gallery__item {
+.photo-gallery__grid-layout-ls-rb>.photo-gallery__item:first-child+.photo-gallery__item {
   grid-row: 2;
   grid-column: 1;
 }
 
-.photo-gallery__grid-layout-ls-rb > .photo-gallery__item:last-child {
+.photo-gallery__grid-layout-ls-rb>.photo-gallery__item:last-child {
   grid-row: span 2;
   grid-column: 2;
 }
