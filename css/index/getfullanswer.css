@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: ;
 }
 
 .getfullanswer__callus a {
@@ -40,6 +41,7 @@
     display: inline-block;
     padding: 16px 24px;
     border-radius: 34px;
+    margin-right: 5px;
     color: var(--getfullanswer-buttoncallus-text-color);
     background-color: var(--getfullanswer-buttoncallus-background-color);
     text-decoration: none;
@@ -56,6 +58,7 @@
     display: inline-block;
     padding: 16px 24px;
     border-radius: 34px;
+    margin-left: 5px;
     border: 1px solid var(--getfullanswer-buttonreservation-border-color);
     color: var(--getfullanswer-buttonreservation-text-color);
     background-color: var(--getfullanswer-buttonreservation-background-color);
