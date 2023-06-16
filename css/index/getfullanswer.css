@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: ;
 }
 
 .getfullanswer__callus a {
@@ -31,7 +32,7 @@
 
 .getfullanswer__reservation a {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 15,4px;
     font-weight: 600px;
     text-decoration-style: solid;
 }
@@ -40,33 +41,35 @@
     display: inline-block;
     padding: 16px 24px;
     border-radius: 34px;
-    color: white;
-    background-color: #f98250;
+    margin-right: 5px;
+    color: var(--getfullanswer-buttoncallus-text-color);
+    background-color: var(--getfullanswer-buttoncallus-background-color);
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .getfullanswer__callus .button:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--getfullanswer-buttoncallushover-background-color);
+    color: var(--getfullanswer-buttoncallushover-text-color);
 }
 
 .getfullanswer__reservation .button {
     display: inline-block;
     padding: 16px 24px;
     border-radius: 34px;
-    border: 1px solid white;
-    color: white;
-    background-color: none;
+    margin-left: 5px;
+    border: 1px solid var(--getfullanswer-buttonreservation-border-color);
+    color: var(--getfullanswer-buttonreservation-text-color);
+    background-color: var(--getfullanswer-buttonreservation-background-color);
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .getfullanswer__reservation .button:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--getfullanswer-buttonreservation-hover-background-color);
+    color: var(--getfullanswer-buttonreservation-hover-text-color);
 }
 
 @media (min-width: 356px) {
