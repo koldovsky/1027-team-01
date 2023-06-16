@@ -27,6 +27,20 @@ p {
   font-size: 0.8rem;
 }
 
+.gallery {
+  background-image: url("../../img/photo-gallery/background-gallery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.our-guests {
+  background-image: url("../../img/photo-gallery/background-our-guests.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .centered {
   text-align: center;
 }
