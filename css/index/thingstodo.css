@@ -2,13 +2,11 @@
     background-image: url("//..img/thingstodo_background.jfif");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .thingstodo_title {
     font-size: 34px;
     color: var(--ourfacilities-title-color);
     font-weight: bold;
     text-align: center;
-}
-.thingstodo_text {
-    
 }
