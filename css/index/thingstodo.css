@@ -1,12 +1,35 @@
 .thingstodo {
-    background-image: url("../../img/thingstodo_background_2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+	background-image: url("../../img/thingstodo_background_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
+
 .thingstodo_title {
-    font-size: 34px;
-    color: var(--ourfacilities-title-color);
-    font-weight: bold;
-    text-align: center;
+	font-size: 34px;
+	color: var(--ourfacilities-title-color);
+	font-weight: bold;
+	text-align: center;
+}
+
+.thingstodo_block_title {
+	color: var(--ourfacilities-title-color);
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+}
+
+.thingstodo_price {
+	color: var(--ui-brand-color);
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+}
+
+.thingstodo_description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: rgb(132, 132, 132);
+	text-align: center;
 }
