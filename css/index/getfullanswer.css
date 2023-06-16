@@ -1,13 +1,14 @@
 .getfullanswer {
-    background-image: url("../../img/backgroundGetFullAnswer.jpg");
+    background-image: url("../../img/backgroundgetgullanswer.jpg");
     background-size: cover;
     padding-top: 140px;
     padding-bottom: 140px;
 }
 
 .getfullanswer__title h2 {
-    font-family: 'Circular Std', sans-serif;
+ /*   font-family: 'Circular Std', sans-serif;*/
     font-size: 60px;
+    letter-spacing: -3px;
     font-weight: bold;
     text-align: center;
     font-style: normal;
