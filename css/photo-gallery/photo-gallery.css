@@ -2,10 +2,9 @@
 @import "../index/header.css";
 @import "../fonts.css";
 
-#photo-gallery-page * {
-  outline: 1px solid red;
-  /*    padding: 5px;*/
-}
+/* #photo-gallery-page * {
+   outline: 1px solid red; 
+} */
 
 /*бажано щоб було з global.css*/
 html {
@@ -27,17 +26,20 @@ h2 {
 p {
   font-size: 0.8rem;
 }
+
 /*бажано щоб було з global.css*/
 
 .gallery {
-  background-image: url("../../img/photo-gallery/background-gallery.jpg");/*бажано зібрати купи всі бекграунди, щоб вони не дулювалися. можливо вести через змінні*/
+  background-image: url("../../img/photo-gallery/background-gallery.jpg");
+  /*бажано зібрати купи всі бекграунди, щоб вони не дублювалися. можливо вести через змінні*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .our-guests {
-  background-image: url("../../img/photo-gallery/background-our-guests.jpg");/*бажано зібрати купи всі бекграунди, щоб вони не дулювалися. можливо вести через змінні*/
+  background-image: url("../../img/photo-gallery/background-our-guests.jpg");
+  /*бажано зібрати купи всі бекграунди, щоб вони не дублювалися. можливо вести через змінні*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,9 +61,11 @@ p {
 }
 
 .photo-gallery__nav-item {
-  color: black;/*потрібна змінна main-color*/
-  font-size: 1.5rem;/*потрібна змінна*/
-  margin: 5px; 
+  color: black;
+  /*потрібна змінна main-color*/
+  font-size: 1.5rem;
+  /*потрібна змінна*/
+  margin: 5px;
 }
 
 .photo-gallery__container {
