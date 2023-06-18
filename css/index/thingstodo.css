@@ -51,9 +51,3 @@
 	left:0;
 	background: #fff;
 }
-.thingstodo_row {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
