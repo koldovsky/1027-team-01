@@ -33,15 +33,3 @@
 	color: rgb(132, 132, 132);
 	text-align: center;
 }
-.thingstodo_img {
-	position: absolute;
-	border-radius: inherit;
-}
-.thingstodo_background_attachment {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left:0;
-	background: #fff;
-}
