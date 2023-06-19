@@ -31,6 +31,7 @@ function lovefunc(flower1, flower2){
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
   }
+
   // 2- Return Negative
   function makeNegative(num) {
     if (num > 0) {
@@ -39,6 +40,7 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
       return num;
     }
   }
+  
   //4-Grasshopper - Personalized Message
   function greet(name, owner) {
     if (name == owner) {
@@ -47,4 +49,10 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
       return "Hello guest";
     }
   }
-  
+
+  //5- Keep hydrated
+ function litres(time) {
+  let liters = time * 0.5;
+  let roundedLiters = Math.floor(liters);
+  return roundedLiters;
+}
