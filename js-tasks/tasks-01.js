@@ -10,15 +10,15 @@ function makeNegative(num) {
 
 //3-Grasshopper - Terminal game move function
 function move(position, roll) {
-  return position += roll * 2
+  return (position += roll * 2);
 }
 // 4 Personalized Message
 function greet(name, owner) {
   return name === owner ? "Hello boss" : "Hello guest";
 }
-// 5 Keep Hydrated 
+// 5 Keep Hydrated
 function litres(time) {
-  return ~~(time/2);
+  return ~~(time / 2);
 }
 
 //6 -Opposites Attract
