@@ -24,3 +24,27 @@ function lovefunc(flower1, flower2){
   return (flower1 % 2 != flower2 % 2 ) ? true : false;
 }
 /*---------------------------------------------------------*/
+
+//Yyliia Antsybor
+
+//1- Messi goals function
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+  }
+  // 2- Return Negative
+  function makeNegative(num) {
+    if (num > 0) {
+      return -num;
+    } else {
+      return num;
+    }
+  }
+  //4-Grasshopper - Personalized Message
+  function greet(name, owner) {
+    if (name == owner) {
+      return "Hello boss";
+    } else {
+      return "Hello guest";
+    }
+  }
+  
