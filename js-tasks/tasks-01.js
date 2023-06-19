@@ -1,3 +1,44 @@
+// 1- Messi goals function
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+
+// 2 Make negative
+function makeNegative(num) {
+  return -Math.abs(num);
+}
+
+//3-Grasshopper - Terminal game move function
+function move(position, roll) {
+  return position += roll * 2
+}
+// 4 Personalized Message
+function greet(name, owner) {
+  return name === owner ? "Hello boss" : "Hello guest";
+}
+// 5 Keep Hydrated 
+function litres(time) {
+  return ~~(time/2);
+}
+
+//6 -Opposites Attract
+function lovefunc(flower1, flower2)
+{
+  return flower1 % 2 !== flower2 %2;
+}
+
+
+/*__________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
 //Sergii Orlov
 // 1- Messi goals function
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
