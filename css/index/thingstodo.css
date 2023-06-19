@@ -36,12 +36,6 @@
 .thingstodo_img {
 	position: absolute;
 	border-radius: inherit;
-	width: 100;
-	height: 100;
-	top: 0;
-	left: 0;
-	object-fit: cover;
-	object-position: 58.85% 83.766%;
 }
 .thingstodo_background_attachment {
 	position: absolute;
