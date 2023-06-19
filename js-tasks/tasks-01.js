@@ -144,6 +144,19 @@ function lovefunc(flower1, flower2) {
   return (flower1 % 2 === 0) !== (flower2 % 2 === 0);
 }
 
+//Alina Denysenko 
+function makeNegative(num) {
+if (num<0)
+{return num;}
+else
+{return -num;}
+}
+
+function lovefunc(flower1, flower2)
+{
+  return flower1 % 2 !== flower2 %2;
+}
+
 
 
 
