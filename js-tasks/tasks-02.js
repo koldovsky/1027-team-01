@@ -127,5 +127,19 @@ function stringToArray(string){
 return string.split(' ');
 }
 
+//2--DNA to RNA Conversion--
+//https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+function DNAtoRNA(dna) {
+  let array = dna.split("");
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === "T") {
+      array[i] = "U";
+    }
+  }
+  return array.join("");
+}
+
+
+
 
 
