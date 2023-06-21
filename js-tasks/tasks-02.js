@@ -172,6 +172,18 @@ var max = function(list){
     return Math.max(...list);
 }
 
+//4--Smallest value of an array--
+//https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+function min(arr, toReturn) {
+  const minNumber = Math.min(...arr)
+  
+  if (toReturn === "value") {
+    return minNumber;
+  } else if (toReturn === "index") {
+    return arr.indexOf(minNumber);
+  }
+}
+
 
 
 
