@@ -34,4 +34,11 @@
 	font-style: normal;
 	color: rgb(132, 132, 132);
 	text-align: center;
+	line-height: 25.6px;
+}
+
+.thingstodo_img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: inherit;
 }
