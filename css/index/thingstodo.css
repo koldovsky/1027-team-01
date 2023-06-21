@@ -42,7 +42,6 @@
 	grid-template-columns: 1fr;
 	gap: 30px;
 }
-
 .thingstodo_img {
 	object-fit: cover;
 	width: 100%;
