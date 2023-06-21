@@ -102,11 +102,12 @@ function warnTheSheep(queue) {
 
 //https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 function maps(x){
+  let xArr = [];
   for (let i = 0; i < x.length; i++)
     {
-      x[i] = x[i] * 2;
+      xArr[i] = x[i] * 2;
     }
-  return x;
+  return xArr;
 }
 
 //Yuliia Antsybor----------------*/
