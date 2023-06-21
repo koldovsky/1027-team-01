@@ -72,23 +72,25 @@ function stringToArray(string) {
 
 //https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 function DNAtoRNA(dna) {
-  return dna.replace(/T/g,"U");
+  return dna.replace(/T/g, "U");
 }
 
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-var min = function(list){
-    
-    return Math.min.apply(null,list);
-}
+var min = function (list) {
+  return Math.min.apply(null, list);
+};
 
-var max = function(list){
-    
-    return Math.max.apply(null,list);
-}
+var max = function (list) {
+  return Math.max.apply(null, list);
+};
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 function min(arr, toReturn) {
-  return toReturn === 'value'? Math.min(...arr) : toReturn === 'index' ? arr.indexOf(Math.min(...arr)) : "";
+  return toReturn === "value"
+    ? Math.min(...arr)
+    : toReturn === "index"
+    ? arr.indexOf(Math.min(...arr))
+    : "";
 }
 
 //https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
@@ -96,18 +98,32 @@ function warnTheSheep(queue) {
   if (queue.indexOf("wolf") === queue.length - 1) {
     return "Pls go away and stop eating my sheep";
   } else if (queue.indexOf("wolf") < queue.length - 1) {
-    return "Oi! Sheep number " + (queue.length - queue.indexOf("wolf") - 1) + "! You are about to be eaten by a wolf!";
+    return (
+      "Oi! Sheep number " +
+      (queue.length - queue.indexOf("wolf") - 1) +
+      "! You are about to be eaten by a wolf!"
+    );
   }
 }
 
 //https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
-function maps(x){
+function maps(x) {
   let xArr = [];
-  for (let i = 0; i < x.length; i++)
-    {
-      xArr[i] = x[i] * 2;
-    }
+  for (let i = 0; i < x.length; i++) {
+    xArr[i] = x[i] * 2;
+  }
   return xArr;
+}
+
+//https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+function firstNonConsecutive(arr) {
+  if (arr.length - 1 == arr[arr.length - 1] - arr[0]) {
+    return null;
+  } else {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] !== arr[i + 1] - 1) return arr[i + 1];
+    }
+  }
 }
 
 //Yuliia Antsybor----------------*/
