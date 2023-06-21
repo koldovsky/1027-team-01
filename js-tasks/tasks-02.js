@@ -91,6 +91,15 @@ function min(arr, toReturn) {
   return toReturn === 'value'? Math.min(...arr) : toReturn === 'index' ? arr.indexOf(Math.min(...arr)) : "";
 }
 
+//https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+function warnTheSheep(queue) {
+  if (queue.indexOf("wolf") === queue.length - 1) {
+    return "Pls go away and stop eating my sheep";
+  } else if (queue.indexOf("wolf") < queue.length - 1) {
+    return "Oi! Sheep number " + (queue.length - queue.indexOf("wolf") - 1) + "! You are about to be eaten by a wolf!";
+  }
+}
+
 //Yuliia Antsybor----------------*/
 
 //1--Convert a string to an array--
