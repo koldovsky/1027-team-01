@@ -86,6 +86,11 @@ var max = function(list){
     return Math.max.apply(null,list);
 }
 
+//https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+function min(arr, toReturn) {
+  return toReturn === 'value'? Math.min(...arr) : toReturn === 'index' ? arr.indexOf(Math.min(...arr)) : "";
+}
+
 //Yuliia Antsybor----------------*/
 
 //1--Convert a string to an array--
