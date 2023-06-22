@@ -37,11 +37,14 @@
 	line-height: 25.6px;
 }
 
-.thingstodo_card {
+.thingstodo_container {
 	display: grid;
+	background-color: #ffff;
+	min-height: 500px;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 100px 100px;
 	gap: 30px;
+	width: 100%;
 }
 .thingstodo_img {
 	object-fit: cover;
