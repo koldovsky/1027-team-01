@@ -40,11 +40,10 @@
 .thingstodo_container {
 	display: grid;
 	background-color: #ffff;
-	min-height: 500px;
-	grid-template-columns: 100px 100px 100px;
-	grid-template-rows: 100px 100px;
-	gap: 30px;
-	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 20px;
+	column-gap: 20px;
 }
 .thingstodo_img {
 	object-fit: cover;
