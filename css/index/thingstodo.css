@@ -35,13 +35,12 @@
 	color: rgb(132, 132, 132);
 	text-align: center;
 	line-height: 25.6px;
-	margin: auto ;
 }
 
 .thingstodo_card {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px;
 	gap: 30px;
 }
 .thingstodo_img {
