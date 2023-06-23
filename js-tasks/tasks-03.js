@@ -55,7 +55,6 @@ function buildFun(n) {
   return Array.from({ length: n }, (ignored, index) => () => index);
 }
 
-
 // 5 Fun with ES6 Classes #2 - Animals and Inheritance
 //https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
 
