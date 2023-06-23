@@ -31,6 +31,25 @@ function giveMeFive(obj) {
   return arr;
 }
 
+// 4 Understanding closures - the basic
+//https://www.codewars.com/kata/56b71b1dbd06e6d88100092a/train/javascript
+function buildFun(n) {
+  const res = [];
+
+  for (let i = 0; i < n; i++) {
+    (function (index) {
+      res.push(function () {
+        return index;
+      });
+    })(i);
+  }
+  return res;
+}
+ //or 
+function buildFun(n) {
+  return Array.from({ length: n }, (ignored, index) => () => index);
+}
+
 /*Grachov Bogdan*/
 
 // https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript ( Find the smallest integer in the array )
