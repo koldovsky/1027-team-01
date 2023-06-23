@@ -46,21 +46,18 @@ class SmallestIntegerFinder {
 function circleCircumference(circle) {
   const circumference = 2 * Math.PI * circle.radius;
   return circumference;
-    }
+}
 
 // https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript (Training JS #12: loop statement --for..in and for..of)
 
 function giveMeFive(obj) {
   const resultArray = [];
-
-for(let key in obj){
-  if(key.length === 5) resultArray.push(key);
-  if(obj[key].length === 5) resultArray.push(obj[key])
-}
-  
+  for (let key in obj) {
+    if (key.length === 5) resultArray.push(key);
+    if (obj[key].length === 5) resultArray.push(obj[key]);
+  }
   return resultArray;
 }
-
 
 
 /*Yuliia Antsybor__________*/
