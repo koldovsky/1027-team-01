@@ -16,7 +16,6 @@ function circleCircumference(circle) {
   return parseFloat(circumference.toFixed(6));
 }
 
-
 // 3 Training JS #12: loop statement --for..in and for..of
 // https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
 
