@@ -77,3 +77,12 @@ function circleCircumference(circle) {
   let circumference = 2 * Math.PI * radius;
   return parseFloat(circumference.toFixed(6));
 }
+
+
+/*Vitalii Matviienko----------------*/
+//https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+  }
+}
