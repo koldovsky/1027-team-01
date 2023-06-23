@@ -182,6 +182,43 @@ function giveMeFive(obj) {
   return resultArray;
 }
 
+//https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript (  5 Fun with ES6 Classes #2 - Animals and Inheritance )
+
+
+class Shark extends Animal {
+  constructor(name, age, status, legs = 0,species = "shark") {
+    super(name,age);
+    this.status = status;
+    this.legs = legs;
+    this.species = species;
+
+  }
+}
+
+class Cat extends Animal {
+  constructor(name, age,status, legs = 4,species = "cat") {
+    super(name,age);
+    this.status = status;
+    this.legs = legs;
+    this.species = species;
+  }
+      introduce() {
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.  Meow meow!`;
+  }
+}
+
+class Dog extends Animal {
+ constructor(name, age, status, master,legs = 4, species ="dog") {
+    super(name,age);
+    this.status = status;
+    this.master = master;
+    this.legs = legs;
+    this.species = species;
+  }
+    greetMaster() {
+    return `Hello ${this.master}`;
+  }
+}
 
 /*Yuliia Antsybor__________*/
 
