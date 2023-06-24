@@ -14,6 +14,11 @@
 	--getfullanswer-buttonreservation-border-color: #FFFFFF;
 	--ourfacilities-title-color: #282520;
 	--ui-brand-color: #f98250;
+	--color-burger: black;
+	--color-burger-navmenu-bk: white;
+	--color-burger-navmenu-txt: black;
+	--color-header-telephone-text: rgb(249, 130, 80);
+	--color-header-menu-text: blak;
 }
 
 h2 {

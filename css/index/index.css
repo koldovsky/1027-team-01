@@ -1,5 +1,6 @@
 @import "../global.css";
 @import "./header.css";
+@import "./header-burger.css";
 @import "./rentals.css";
 @import "./thingstodo.css";
 @import "./getfullanswer.css";
