@@ -6,4 +6,6 @@ document.addEventListener('partialsLoaded', () => {
     import('./accommodation-list.js');
     import('./accomodation-carousel.js');
 
+
+
 });
