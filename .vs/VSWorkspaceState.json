@@ -3,8 +3,9 @@
     "",
     "\\css",
     "\\fonts",
+    "\\js",
     "\\partials"
   ],
-  "SelectedNode": "\\css\\global.css",
+  "SelectedNode": "\\js\\rentals.js",
   "PreviewInSolutionExplorer": false
 }
