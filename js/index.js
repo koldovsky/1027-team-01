@@ -1,6 +1,6 @@
 document.addEventListener('partialsLoaded', () => {
-    import('../js/burger-menu.js');
-    import('../js/rentals.js');
+    import('./burger-menu.js');
+    import('./rentals.js');
     import('./shop.js');
     import('./getfullanswer-title-running.js');
     import('./accommodation-list.js');
