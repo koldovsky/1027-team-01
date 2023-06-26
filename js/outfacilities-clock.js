@@ -5,5 +5,5 @@ function updateClock() {
   clockContainer.innerText = new Date().toLocaleTimeString();
 }
 
-setInterval(updateClock, 100);
+setInterval(updateClock, 1000);
 updateClock();

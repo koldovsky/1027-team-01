@@ -1,6 +1,8 @@
 const title = document.querySelector(".getfullanswer__title-text");
-const runingLine = title.textContent; // або runningLineElement.innerText
-const scrollSpeed = 200; // Швидкість прокручування (в мс)
+/*const runingLine = title.textContent;*/
+title.innerText = "Point at me if you want get more information ";
+const runingLine ="Point at me if you want get more information ";
+const scrollSpeed = 200;
 
 let position = 0;
 let isHovered = false;
@@ -27,3 +29,4 @@ title.addEventListener("mouseleave", () => {
 });
 
 setInterval(updateRunningText, scrollSpeed);
+updateRunningText();
