@@ -10,7 +10,7 @@ const accommodation = [
         id: '2',
         price: '75/night',
         name: 'Lookout Lodge',
-        image: 'img/accommodation/accommodation_lodge.jpeg',
+        image: '/img/accommodation/accommodation_lodge.jpeg',
         info: '2 Bedrooms, 1 Bathroom, Sleeps 4'
     }
 ];
