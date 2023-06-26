@@ -1,0 +1,45 @@
+.accommodation{
+    background: url("../../img/accommodation/accommodation_background.jpeg");
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.accommodation__card{
+    padding-bottom: 20px;
+}
+
+.accommodation__title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.accommodation h2 {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--accomodation-title);
+    font-size: 28px;
+}
+
+.acard__image img{
+    border-radius: 10px;
+}
+
+.accommodation h3 {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--accomodation-title);
+    font-size: 22px;
+}
+
+.acard__price {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--accomodation-title);
+    font-size: 35px;
+}
