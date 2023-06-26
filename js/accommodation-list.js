@@ -3,14 +3,14 @@ const accommodation = [
         id: '1',
         price: '65/night',
         name: 'River Chalet',
-        image: '../img/accommodation/accommodation_river.jpeg',
+        image: 'img/accommodation/accommodation_river.jpeg',
         info: '1 Bedroom, 1 Bathroom, Sleeps 2'
     },
     {
         id: '2',
         price: '75/night',
         name: 'Lookout Lodge',
-        image: '../img/accommodation/accommodation_lodge.jpeg',
+        image: 'img/accommodation/accommodation_lodge.jpeg',
         info: '2 Bedrooms, 1 Bathroom, Sleeps 4'
     }
 ];
