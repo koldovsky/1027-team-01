@@ -5,7 +5,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./getfullanswer-title-running.js');
     import('./accommodation-list.js');
     import('./accomodation-carousel.js');
-
-
-
+    import('./outfacilities-clock.js');
 });
