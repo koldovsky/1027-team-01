@@ -1,17 +1,29 @@
-/* TITLE */
+/*RainBow Title*/
+let letters = document.querySelector(".testimonials__title h2").innerHTML.split("");
 
-function titleUpdate(){
-    const title = document.querySelector(".testimonials__title h2");
-    
-    const colors = ['red','orange','yellow','green','blue','purple'];
-    
-    const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
-    title.style.color = getRandom(colors);
-    
-    };
-    
-    setInterval(titleUpdate,500);
+const colors = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'lightblue',
+  'blue',
+  'purple'
+]
 
-/* Clock */
+const getRandomColor = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
-const timeContainer = document.querySelector(".clock");
+Array.prototype.randomColor = function () {
+  let h2 = "";
+  this.map(letter => {
+    let color = getRandomColor(colors);
+    h2 += '<span style="color:' + color + '">' + letter + "</span>";
+  });
+  return h2;
+};
+
+function setColor(){
+document.querySelector(".testimonials__title h2").innerHTML = letters.randomColor();
+}
+
+setInterval(setColor, 100);
