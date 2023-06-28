@@ -1,44 +1,44 @@
 console.log('Secondary page JavaScript code');
 
 
-document.addEventListener('partialsLoaded', function() {
-  console.log('Partials loaded');
+document.addEventListener('partialsLoaded', function () {
+    console.log('Partials loaded');
 });
 
 const accommodation = [
     {
         id: '1',
-        price: '65/night',
+        price: '65',
         name: 'River Chalet',
         image: 'img/accommodation/accommodation_river.jpeg',
         info: '1 Bedroom, 1 Bathroom, Sleeps 2'
     },
     {
         id: '2',
-        price: '75/night',
+        price: '75',
         name: 'Lookout Lodge',
-        image: '/img/accommodation/accommodation_lodge.jpeg',
+        image: 'img/accommodation/accommodation_lodge.jpeg',
         info: '2 Bedrooms, 1 Bathroom, Sleeps 4'
     },
     {
         id: '3',
-        price: '85/night',
+        price: '85',
         name: 'Smoky View Chalet',
-        image: '/img/accommodation/accommodation_smoky_view_chalet.jpeg',
+        image: 'img/accommodation/accommodation_smoky_view_chalet.jpeg',
         info: '2 Bedrooms,2 Bathrooms, Sleeps 6'
     },
     {
         id: '4',
-        price: '100/night',
+        price: '100',
         name: 'Mountain Haven',
-        image: '/img/accommodation/accommodation_haven.jpeg',
+        image: 'img/accommodation/accommodation_haven.jpeg',
         info: '3 Bedrooms,2 Bathrooms, Sleeps 8'
     },
     {
         id: '5',
-        price: '150/night',
+        price: '150',
         name: 'Mountain Splash',
-        image: '/img/accommodation/accommodation_mountain_splash.jpeg',
+        image: 'img/accommodation/accommodation_mountain_splash.jpeg',
         info: '3 Bedrooms,3 Bathrooms, Sleeps 10'
     }
 ];
@@ -50,11 +50,12 @@ function renderAccommodation(accommodation) {
     for (const item of accommodation) {
         accommodationList.innerHTML += `
         <article class="accommodation__card card">
+        <div class="block">
             <div class="card__image">
                 <img src="${item.image}" alt="${item.name}">
             </div>
-            <div class="card__info">
-                <p class="card__price">$${item.price}</p>
+            <div class="card__inform">
+                <p class="card__price"><span class="price" style="color: green">$${item.price}</span>/night</p>
                 <h3 class="card__name">${item.name}</h3>
                 <p class="card__info">${item.info}</p>
                 <div class="card__button button">
@@ -62,6 +63,7 @@ function renderAccommodation(accommodation) {
                         Reserve cabin
                     </a>
                 </div>
+            </div>
             </div>
         </article>
         `;
@@ -73,16 +75,16 @@ renderAccommodation(accommodation);
 function toggleCardBackground() {
     const cards = document.querySelectorAll('.accommodation__card');
     cards.forEach((card, index) => {
-      if (index % 2 === 0) {
-        card.classList.add('light-background');
-        card.classList.remove('dark-background');
-      } else {
-        card.classList.add('dark-background');
-        card.classList.remove('light-background');
-      }
+        if (index % 2 === 0) {
+            card.classList.add('light-background');
+            card.classList.remove('dark-background');
+        } else {
+            card.classList.add('dark-background');
+            card.classList.remove('light-background');
+        }
     });
-  }
-  
-  // Вызов функции для переключения цвета фона карточек
-  toggleCardBackground();
+}
+
+// Вызов функции для переключения цвета фона карточек
+toggleCardBackground();
 
