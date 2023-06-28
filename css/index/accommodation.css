@@ -14,10 +14,12 @@
 
  .accommodation__card {
      padding-bottom: 50px;
-     
+
  }
 
  .accommodation__title {
+     display: flex;
+     flex-direction: column;
      text-align: center;
      padding-top: 60px;
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../../img/accommodation/accommodation_background.jpeg");
@@ -73,6 +75,18 @@
      font-size: 16px;
 
  }
+
+ .currency {
+     position: relative;
+
+ }
+
+ .currency select {
+     position: absolute;
+     left: 0;
+     top: 100%;
+ }
+
 
 
  @media (min-width: 767px) {
