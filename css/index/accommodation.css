@@ -1,45 +1,59 @@
-.accommodation{
-    background: url("../../img/accommodation/accommodation_background.jpeg");
-    background-size: cover;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 80px;
+ .accommodation {
+     padding-bottom: 20px;
+     position: relative;
+ }
+
+ .light-background {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../../img/accommodation/accommodation_background.jpeg");
+ }
+
+ .dark-background {
+    background-image: linear-gradient(to right, rgba(35, 34, 33, 0.2), rgba(35, 34, 33, 0.2)), url("../../img/accommodation/accommodation_background.jpeg");
+    
+ }
+ .accommodation__title {
+     text-align: center;
+     padding-top: 60px;
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../../img/accommodation/accommodation_background.jpeg");
+ }
+
+ .accommodation__title h2 {
+     font-family: 'Circular Std', sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     color: var(--accomodation-title);
+     font-size: 28px;
+ }
+ .accommodation__card.card .card__image {
     padding-left: 24px;
     padding-right: 24px;
-}
-.accommodation__card{
-    padding-bottom: 20px;
-}
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+  }
 
-.accommodation__title {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.accommodation h2 {
-    font-family: 'Circular Std', sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: var(--accomodation-title);
-    font-size: 28px;
-}
-
-.acard__image img{
+ .accommodation__card.card .card__image img {
     border-radius: 10px;
-}
+  }
 
-.accommodation h3 {
-    font-family: 'Circular Std', sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: var(--accomodation-title);
-    font-size: 22px;
-}
+  .accommodation__card.card .card__inform{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 
-.acard__price {
-    font-family: 'Circular Std', sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: var(--accomodation-title);
-    font-size: 35px;
-}
+ .accommodation h3 {
+     font-family: 'Circular Std', sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     color: var(--accomodation-title);
+     font-size: 22px;
+ }
+
+ .accommodation__card.card .card__price {
+     font-family: 'Circular Std', sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     color: var(--accomodation-title);
+     font-size: 35px;
+     
+ }
