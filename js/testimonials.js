@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-const clockContainer = document.querySelector('.clock');
-function updateClock() {
-    clockContainer.innerText = new Date().toLocaleTimeString('uk');
-}
-setInterval(updateClock, 1000);
-
-updateClock();
-=======
 /*RainBow Title*/
 let letters = document.querySelector(".testimonials__title h2").innerHTML.split("");
 
@@ -36,4 +27,3 @@ document.querySelector(".testimonials__title h2").innerHTML = letters.randomColo
 }
 
 setInterval(setColor, 100);
->>>>>>> 364de8ce47d3570e3a82655d00119935359d58fa
