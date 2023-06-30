@@ -1,0 +1,28 @@
+[
+    {
+       "src":"img/testimonial/horse_kid.jpg",
+       "class":"testimonials__gallery-horse",
+       "alt":"horse_kid"
+    },
+    {
+       "src":"img/testimonial/couple_canoe.jpg",
+       "class":"testimonials__gallery-couple",
+       "alt":"couple_canoe"
+    },
+    {
+       "src":"img/testimonial/girl_mountains.jpg",
+       "class":"testimonials__gallery-mountains",
+       "alt":"girl_mountains"
+    },
+    {
+       "src":"img/testimonial/girl_lake.jpg",
+       "class":"testimonials__gallery-lake",
+       "alt":"girl_lake"
+    },
+    {
+       "src":"img/testimonial/three_people.jpg",
+       "class":"testimonials__gallery-people",
+       "alt":"three_people"
+    }
+    
+ ]
