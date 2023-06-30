@@ -117,6 +117,10 @@ p {
   grid-column: 2;
 }
 
+.photo-gallery__title-page {
+  display: none;
+}
+
 @media (max-width: 500px) {
 
   .photo-gallery__nav {
