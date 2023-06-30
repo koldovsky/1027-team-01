@@ -9,4 +9,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./getfullanswer-title-running.js');
     import('./outfacilities-clock.js');
     import('./testimonials.js');
+    import('./testimonials_gallery.js');
 });
