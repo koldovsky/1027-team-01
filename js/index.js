@@ -10,4 +10,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./outfacilities-clock.js');
     import('./testimonials.js');
     import('./testimonials_gallery.js');
+    import('./reservation.js');
 });
