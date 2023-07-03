@@ -47,5 +47,5 @@
 .thingstodo_img {
 	object-fit: cover;
 	width: 100%;
-	border-radius: inherit;
+	margin-top: 50px;
 }
