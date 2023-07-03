@@ -48,9 +48,11 @@
 	object-fit: cover;
 	width: 100%;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .thingstodo_row {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
+	flex-wrap: wrap;
 }
