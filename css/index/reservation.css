@@ -4,19 +4,19 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     overflow: hidden; 
   }
   
   .container-reserv {
-    max-width: 513px;
+    max-width: 613px;
     max-height: 711px;
-    margin: 0 auto;
-    padding: 30px;
+    margin: auto;
+    padding: 35px;
     background-color: rgba(255, 255, 255, 1);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
@@ -52,13 +52,15 @@
 .container-reserv button {
     background-color: #f98250;
     color: #fff;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 15px 15px;
+    margin-left: 8px;
+    margin-top: 8px;
     border: none;
     cursor: pointer;
-    width: 100%;
-    border-radius: 20px;
-    font-family: 'Roboto', sans-serif;
+    height: 56px;
+    width: 350px;
+    border-radius: 15px;
+    font-family: 'Circular Std', sans-serif;
     transition: background-color 0.5s;
 }
 
@@ -66,4 +68,74 @@
     background-color: #45a049;
     transition: background-color 0.3s;
 }
+/*JavaScript test part*/
+div {
+    margin: 10px;
+}
+.md-textbox {
+    position: relative;
+    font-family: 'Circular Std', sans-serif;
+  }
+  
+  .md-textbox :is(label, span) {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    pointer-events: none;
+    color: #888888;
+    transition: 0.3s;
+  }
+  
+  .md-textbox > label {
+    left: 10px;
+    translate: 0 -50%;
+    padding: 4px 8px;
+  }
+  
+  .md-textbox > span {
+    right: 16px;
+    font-size: 28px;
+  }
+  
+  .md-textbox > input {
+    height: 56px;
+    width: 250px;
+    padding-left: 16px;
+    border: 2px solid #888888;
+    border-radius: 13px;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 16px;
+  }
 
+  .md-textbox > select {
+    height: 56px;
+    width: 350px;
+    padding-left: 12px;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    color: #888888;
+    font-size: 16px;
+    font-family: 'Circular Std', sans-serif;
+  }
+  
+  .md-textbox > :is(input:focus, .has-value) {
+    border-color: #000000;
+  }
+  
+  .md-textbox > :is(input:focus, .has-value) ~ span {
+    color: #f9f9f9;
+  }
+  
+  .md-textbox > :is(input:focus, .has-value) ~ label {
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.75);
+    translate: 0 -46px;
+  }
+
+  .md-textbox > :is(select:focus, .has-value) {
+    color: #000000;
+  }

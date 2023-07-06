@@ -2,12 +2,29 @@
     <div class="container-reserv">
         <h1>Make a Reservation</h1>
         <h3>Please complete the form below</h3>
-        <form>
-            <input type="text" placeholder="Name*" required>
-            <input type="tel" placeholder="Phone number*" required>
-            <input type="text" placeholder="Check-in date">
-            <input type="text" placeholder="Check-out date">
-            <select>
+        <!--<form> -->
+            <div class="md-textbox">
+                <input oninput="handleChange(event)" id="input" type="text" required />
+                <span class="material-symbols-outlined"></span>
+                <label htmlFor="input">Name*</label>
+              </div>
+              <div class="md-textbox">
+                <input oninput="handleChange(event)" id="input" type="tel" required />
+                <span class="material-symbols-outlined"></span>
+                <label htmlFor="input">Phone number*</label>
+              </div>
+              <div class="md-textbox">
+                <input oninput="handleChange(event)" id="input" type="text" />
+                <span class="material-symbols-outlined"></span>
+                <label htmlFor="input">Check in date</label>
+              </div>
+              <div class="md-textbox">
+                <input oninput="handleChange(event)" id="input" type="text" />
+                <span class="material-symbols-outlined"></span>
+                <label htmlFor="input">Check out date</label>
+              </div>
+              <div class="md-textbox">
+                <select>
                 <option value="">Number of guests</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -16,7 +33,9 @@
                 <option value="5">5</option>
                 <option value="6">5+</option>
             </select>
+            </div>
             <button type="submit">Make a reservation</button>
-        </form>
+        <!--</form> -->
     </div>
+    <script type="text/javascript" src="/js/reservation.js"></script>
 </section>
