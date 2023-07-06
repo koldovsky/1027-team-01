@@ -136,6 +136,6 @@ div {
     translate: 0 -46px;
   }
 
-  .md-textbox > :is(select:focus, .has-value) {
+  .md-textbox > :is(select:focus, .has-value) ~ select {
     color: #000000;
   }

@@ -1,5 +1,10 @@
-const input = document.querySelector("#input");
-
-const handleChange = (event) => {
-  input.classList.toggle("has-value", event.target.value);
-};
+document.querySelectorAll('.md-textbox')
+ .forEach( cb => {
+   cb.addEventListener('change', ev => {
+     if (ev.target.value !== '') {
+       ev.target.classList.add('has-value')
+     } else {
+       ev.target.classList.remove('has-value')
+     }
+   })
+ })
