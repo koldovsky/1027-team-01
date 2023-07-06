@@ -69,9 +69,6 @@
     transition: background-color 0.3s;
 }
 /*JavaScript test part*/
-div {
-    margin: 10px;
-}
 .md-textbox {
     position: relative;
     font-family: 'Circular Std', sans-serif;
