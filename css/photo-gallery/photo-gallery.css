@@ -96,3 +96,36 @@
     float: none;
   }
 } 
+
+.our-guests__carousel {
+  position: relative;
+  margin-top: 40px;
+}
+
+.our-guests__carousel-btn-prev,
+.our-guests__carousel-btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.our-guests__carousel-btn-prev {
+  left: 20px;
+}
+
+.our-guests__carousel-btn-next {
+  right: 20px;
+}
+
+.our-guests__carousel-btn-prev svg,
+.our-guests__carousel-btn-next svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
