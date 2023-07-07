@@ -3,13 +3,11 @@
 @import "../index/header-burger.css";
 @import "../fonts.css";
 
-
 .gallery__title {
   font-size: 2.1rem;
   font-weight: 500;
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .gallery {
@@ -33,27 +31,32 @@
 .photo-gallery__nav {
   display: flex;
   justify-content: center;
-
+  padding-bottom: 25px;
 }
 
 .photo-gallery__nav ul {
   display: flex;
   list-style: none;
-  padding: 0;
 }
 
 .photo-gallery__nav-item {
   color: black;
   font-size: 1.5rem;
-  /*потрібна змінна*/
-  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+.photo-gallery__nav-item.active {
+  border-bottom: 2px solid #000;
+}  
 
 .photo-gallery__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .photo-gallery__title-page {
