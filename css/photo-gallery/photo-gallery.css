@@ -3,36 +3,17 @@
 @import "../index/header-burger.css";
 @import "../fonts.css";
 
-/* #photo-gallery-page * {
-   outline: 1px solid red; 
-} */
 
-/*бажано щоб було з global.css*/
-html {
-  font-size: 16px;
+.gallery__title {
+  font-size: 2.1rem;
+  font-weight: 500;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
-
-body {
-  font-size: 1rem;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-/*бажано щоб було з global.css*/
 
 .gallery {
   background-image: url("../../img/photo-gallery/background-gallery.jpg");
-  /*бажано зібрати купи всі бекграунди, щоб вони не дублювалися. можливо вести через змінні*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,7 +21,6 @@ p {
 
 .our-guests {
   background-image: url("../../img/photo-gallery/background-our-guests.jpg");
-  /*бажано зібрати купи всі бекграунди, щоб вони не дублювалися. можливо вести через змінні*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -64,7 +44,6 @@ p {
 
 .photo-gallery__nav-item {
   color: black;
-  /*потрібна змінна main-color*/
   font-size: 1.5rem;
   /*потрібна змінна*/
   margin: 5px;
