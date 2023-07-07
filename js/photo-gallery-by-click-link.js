@@ -1,4 +1,3 @@
-
 const summerLink = document.getElementById("summer-link");
 const winterLink = document.getElementById("winter-link");
 const springLink = document.getElementById("spring-link");
@@ -15,7 +14,8 @@ const fishingContainer = document.querySelector(".photo-gallery__container--fish
 const spaContainer = document.querySelector(".photo-gallery__container--spa");
 
 
-hideContainers([winterContainer, springContainer, autumnContainer, fishingContainer, spaContainer]);
+const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const randomLink = getRandom([summerLink, winterLink, springLink, autumnLink, fishingLink, spaLink]);
 
 
 summerLink.addEventListener("click", function(event) {
@@ -54,6 +54,8 @@ spaLink.addEventListener("click", function(event) {
   hideContainers([summerContainer, winterContainer, springContainer, autumnContainer, fishingContainer]);
 });
 
+hideContainers([summerContainer, winterContainer, springContainer, autumnContainer, fishingContainer, spaContainer]);
+randomLink.click();
 
 function showContainer(container) {
   container.style.display = "flex";
