@@ -1,4 +1,4 @@
-import { reservationCheck } from './js/reservation.js';
+//import { reservationCheck } from './js/reservation.js';
 document.addEventListener('partialsLoaded', () => {
     import('../js/burger-menu.js');
     import('../js/rentals.js');
