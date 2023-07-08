@@ -1,24 +1,25 @@
 .getfullanswer {
     background-image: url("../../img/backgroundgetgullanswer.jpg");
     background-size: cover;
-   /* padding-top: 140px;
+    /* padding-top: 140px;
     padding-bottom: 140px;*/
 }
 
 .getfullanswer__elements {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 140px;
+    padding-bottom: 140px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
+.getfullanswer__title {}
+
 .getfullanswer__title h2 {
     /*   font-family: 'Circular Std', sans-serif;*/
     font-size: 60px;
-    font-weight: 700;
-    padding-left: 15px;
-    padding-right: 15px;
-    letter-spacing: -3px;
+    font-weight: 400;
+    letter-spacing: -1.37px;
+    line-height: 70.8px;
     font-weight: bold;
     text-align: center;
     font-style: normal;
@@ -30,27 +31,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .getfullanswer__callus a {
     font-family: 'Roboto', sans-serif;
-    font-size: 15, 4px;
-    font-weight: 600px;
-    text-decoration-style: solid;
+    font-size: 15.4px;
+    font-weight: 400;
 }
 
 .getfullanswer__reservation a {
     font-family: 'Roboto', sans-serif;
-    font-size: 15, 4px;
-    font-weight: 600px;
+    font-size: 15.4px;
+    font-weight: 600;
     text-decoration-style: solid;
 }
 
 .getfullanswer__callus .button {
     display: inline-block;
-    padding: 16px 24px;
-    border-radius: 34px;
-    margin-right: 5px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 32px;
     color: var(--getfullanswer-buttoncallus-text-color);
     background-color: var(--getfullanswer-buttoncallus-background-color);
     text-decoration: none;
@@ -65,9 +65,9 @@
 
 .getfullanswer__reservation .button {
     display: inline-block;
+    margin-top: 20px;
     padding: 16px 24px;
     border-radius: 34px;
-    margin-left: 5px;
     border: 1px solid var(--getfullanswer-buttonreservation-border-color);
     color: var(--getfullanswer-buttonreservation-text-color);
     background-color: var(--getfullanswer-buttonreservation-background-color);
@@ -81,11 +81,15 @@
     color: var(--getfullanswer-buttonreservation-hover-text-color);
 }
 
-@media (min-width: 356px) {
+@media (min-width: 358px) {
     .getfullanswer__buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
 
+    .getfullanswer__reservation .button {
+        margin-top: 0px;
+        margin-left: 20px;
     }
 }
