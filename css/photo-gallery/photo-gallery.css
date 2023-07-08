@@ -141,7 +141,7 @@
 
 .our-guests__carousel-slide {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+ transition: transform 0.5s ease-in-out;
   width: fit-content;
   margin: 0 auto;
 }
