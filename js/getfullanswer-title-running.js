@@ -1,7 +1,7 @@
 const title = document.querySelector(".getfullanswer__title-text");
-/*const runingLine = title.textContent;*/
-title.innerText = "Point at me if you want get more information ";
-const runingLine ="Point at me if you want get more information ";
+const runingLine = title.textContent;
+/*title.innerText = "Point at me if you want get more information ";
+const runingLine ="Point at me if you want get more information ";*/
 const scrollSpeed = 200;
 
 let position = 0;
