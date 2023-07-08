@@ -53,12 +53,11 @@
     background-color: #f98250;
     color: #fff;
     padding: 15px 15px;
-    margin-left: 8px;
-    margin-top: 8px;
+    margin-top: 18px;
     border: none;
     cursor: pointer;
     height: 56px;
-    width: 350px;
+    width: 360px;
     border-radius: 15px;
     font-family: 'Circular Std', sans-serif;
     transition: background-color 0.5s;
@@ -70,7 +69,7 @@
 }
 /*JavaScript test part*/
   .md-textbox {
-    margin: 10px;
+    margin-top: 10px;
     position: relative;
     font-family: 'Circular Std', sans-serif;
   }
@@ -109,9 +108,9 @@
 
   .md-textbox > select {
     height: 56px;
-    width: 350px;
+    width: 360px;
     padding-left: 12px;
-    border: 1px solid #888888;
+    /* border: 1px solid #888888; */
     border-radius: 20px;
     outline: none;
     background: transparent;
@@ -131,9 +130,9 @@
   .md-textbox > :is(input:focus, .has-value) ~ label {
     background: #ffffff;
     color: rgba(0, 0, 0, 0.75);
-    translate: 0 -46px;
+    transform: translate(0, -32px)
   }
 
   .md-textbox > :is(select:focus, .has-value) ~ select {
-    color: #000000;
+    color: rgb(0, 0, 0);
   }

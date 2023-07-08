@@ -8,3 +8,13 @@ document.querySelectorAll('.md-textbox')
      }
    })
  })
+
+ const selectElement = document.querySelector('.md-textbox select');
+
+selectElement.addEventListener('focus', function() {
+  this.style.color = 'black'; // Change to the desired color
+});
+
+selectElement.addEventListener('blur', function() {
+  this.style.color = ''; // Reset the color when the select element loses focus
+});
