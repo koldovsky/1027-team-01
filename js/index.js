@@ -2,7 +2,7 @@
 document.addEventListener('partialsLoaded', () => {
     import('./shop.js');
     import('./testimonials.js');
-    import('./js/adventures.js');
+    import('./adventures.js');
     import('./burger-menu.js');
     import('./rentals.js');
     import('./reservation.js');

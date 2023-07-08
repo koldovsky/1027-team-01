@@ -5,6 +5,13 @@
     padding-bottom: 80px;
 }
 
+.ourfacilities__elements {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
 .clock {
     text-align: center;
 }
