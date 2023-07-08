@@ -46,15 +46,15 @@ function updateCarousel() {
 
 // Event listeners
 prevButton.addEventListener('click', () => {
-    currentIndex--;
-    if (currentIndex < 0) {
-      currentIndex = slides.length - slidesPerView;
-      setTransitionNone();
-      updateCarousel();
-    } else {
-      updateCarousel();
-    }
-  });
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = slides.length - slidesPerView;
+    setTransitionNone();
+    updateCarousel();
+  } else {
+    updateCarousel();
+  }
+});
 
 nextButton.addEventListener('click', () => {
     currentIndex++;
