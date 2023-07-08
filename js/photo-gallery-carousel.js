@@ -1,65 +1,95 @@
-const slides = [
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-1.jpg" class="" alt="Our guests photo 1"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-2.jpg" class="" alt="Our guests photo 2"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-3.jpg" class="" alt="Our guests photo 3"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-4.jpg" class="" alt="Our guests photo 4"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-5.jpg" class="" alt="Our guests photo 5"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-6.jpg" class="" alt="Our guests photo 6"></div>',
-    '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-7.jpg" class="" alt="Our guests photo 7"></div>'
-]
-
+const carousel = document.querySelector('.our-guests__carousel');
 const carouselSlide = document.querySelector('.our-guests__carousel-slide');
+const nextButton = document.querySelector('.our-guests__carousel-btn-next');
+const prevButton = document.querySelector('.our-guests__carousel-btn-prev');
+const carouselItems = document.querySelectorAll('.carousel-item');
 
 let currentSlide = 0;
 
-function renderSlide() {
-    carouselSlide.innerHTML = slides[currentSlide];
-  
-    if (window.innerWidth >= 320) {
-      const secondSlideIdx = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-      carouselSlide.innerHTML += slides[secondSlideIdx];
-  
-      if (window.innerWidth >= 640) {
-        const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-        carouselSlide.innerHTML += slides[thirdSlideIdx];
-  
-        if (window.innerWidth >= 960) {
-          const fourthSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
-          carouselSlide.innerHTML += slides[fourthSlideIdx];
-  
-          if (window.innerWidth >= 1280) {
-            const fifthSlideIdx = fourthSlideIdx + 1 >= slides.length ? 0 : fourthSlideIdx + 1;
-            carouselSlide.innerHTML += slides[fifthSlideIdx];
-          }
-        }
-      }
-    }
-  }
-
-renderSlide();
-
-function nextSlide() {
-    currentSlide++;
-    if (currentSlide >= slides.length) {
-        currentSlide = 0;
-    }
-    renderSlide();
+function updateCarousel() {
+  carouselSlide.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-function prevSlide() {
-    currentSlide--;
-    if (currentSlide < 0) {
-        currentSlide = slides.length - 1;
-    }
-    renderSlide();
-}
+nextButton.addEventListener('click', () => {
+  currentSlide = (currentSlide + 1) % carouselItems.length;
+  updateCarousel();
+});
 
-setInterval(nextSlide, 5000)
+prevButton.addEventListener('click', () => {
+  currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+  updateCarousel();
+});
 
-const btnNext = document.querySelector('.our-guests__carousel-btn-next');
-const btnPrev = document.querySelector('.our-guests__carousel-btn-prev');
+// window.addEventListener('resize', () => {
+//     if (window.innerWidth >= 1024) {
+//       carousel.style.maxWidth = '80%';
+//     } else {
+//       carousel.style.maxWidth = '100%';
+//     }
+//   });
 
-btnNext.addEventListener('click', nextSlide);
-btnPrev.addEventListener('click', prevSlide);
+// const slides = [
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-1.jpg" class="" alt="Our guests photo 1"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-2.jpg" class="" alt="Our guests photo 2"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-3.jpg" class="" alt="Our guests photo 3"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-4.jpg" class="" alt="Our guests photo 4"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-5.jpg" class="" alt="Our guests photo 5"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-6.jpg" class="" alt="Our guests photo 6"></div>',
+//     '<div class="carousel-item"><img src="img/photo-gallery/our-guests-photo-7.jpg" class="" alt="Our guests photo 7"></div>'
+// ]
 
-window.addEventListener('resize', renderSlide);
+// const carouselSlide = document.querySelector('.our-guests__carousel-slide');
+
+// let currentSlide = 0;
+
+// function renderSlide() {
+//     carouselSlide.innerHTML = slides[currentSlide];
+  
+//     if (window.innerWidth >= 320) {
+//       const secondSlideIdx = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+//       carouselSlide.innerHTML += slides[secondSlideIdx];
+  
+//       if (window.innerWidth >= 640) {
+//         const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+//         carouselSlide.innerHTML += slides[thirdSlideIdx];
+  
+//         if (window.innerWidth >= 960) {
+//           const fourthSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
+//           carouselSlide.innerHTML += slides[fourthSlideIdx];
+  
+//           if (window.innerWidth >= 1280) {
+//             const fifthSlideIdx = fourthSlideIdx + 1 >= slides.length ? 0 : fourthSlideIdx + 1;
+//             carouselSlide.innerHTML += slides[fifthSlideIdx];
+//           }
+//         }
+//       }
+//     }
+//   }
+
+// renderSlide();
+
+// function nextSlide() {
+//     currentSlide++;
+//     if (currentSlide >= slides.length) {
+//         currentSlide = 0;
+//     }
+//     renderSlide();
+// }
+
+// function prevSlide() {
+//     currentSlide--;
+//     if (currentSlide < 0) {
+//         currentSlide = slides.length - 1;
+//     }
+//     renderSlide();
+// }
+
+// setInterval(nextSlide, 5000)
+
+// const btnNext = document.querySelector('.our-guests__carousel-btn-next');
+// const btnPrev = document.querySelector('.our-guests__carousel-btn-prev');
+
+// btnNext.addEventListener('click', nextSlide);
+// btnPrev.addEventListener('click', prevSlide);
+
+// window.addEventListener('resize', renderSlide);
