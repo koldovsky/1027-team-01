@@ -8,6 +8,7 @@
   font-weight: 500;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .gallery {
@@ -23,6 +24,7 @@
   font-weight: 500;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .our-guests {
@@ -30,10 +32,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.centered {
-  text-align: center;
 }
 
 .photo-gallery__nav {
@@ -144,22 +142,71 @@
 .our-guests__carousel-slide {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: fit-content;
+  margin: 0 auto;
 }
 
-.our-guests__carousel .carousel-item {
-  flex:  0 0 100%;
-  padding: 20px;
+.our-guests__carousel-slide .carousel-item {
+  flex: 0 0 100%;
   box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-  .our-guests__carousel .carousel-item {
-      flex: 0 0 50%;
+@media (min-width: 1281px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 20%;
   }
 }
 
-@media (min-width: 1024px) {
-  .our-guests__carousel .carousel-item {
-      flex: 0 0 33.33%;
+@media (min-width: 961px) and (max-width: 1280px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 25%;
   }
 }
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 33.33%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 640px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 100%;
+  }
+}
+
+ /* @media (min-width: 1600px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 20%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 25%;
+  }
+}
+
+@media (min-width: 960px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 33.33%;
+  }
+}
+
+@media (min-width: 640px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .our-guests__carousel-slide .carousel-item {
+    flex: 0 0 100%;
+  }
+}  */
