@@ -1,8 +1,17 @@
+.slide-in {
+    transform: translateX(10%);
+    opacity: 0;
+    transition: transform 2s ease, opacity 2s ease;
+  }
+  
+  .slide-in.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
 .getfullanswer {
     background-image: url("../../img/backgroundgetgullanswer.jpg");
     background-size: cover;
-    /* padding-top: 140px;
-    padding-bottom: 140px;*/
 }
 
 .getfullanswer__elements {
@@ -13,7 +22,6 @@
 }
 
 .getfullanswer__title h2 {
-    /*   font-family: 'Circular Std', sans-serif;*/
     font-size: 60px;
     font-weight: 400;
     letter-spacing: -1.37px;
