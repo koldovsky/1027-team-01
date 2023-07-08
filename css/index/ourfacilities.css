@@ -10,7 +10,7 @@
 }
 
 .ourfacilities__title h2 {
-  /*  font-family: 'Circular Std', sans-serif; */
+    /*  font-family: 'Circular Std', sans-serif; */
     font-size: 34px;
     letter-spacing: 2px;
     vertical-align: baseline;
@@ -20,8 +20,16 @@
     color: var(--ourfacilities-title-color);
 }
 
+.ourfacilities__photo-container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .ourfacilities__photo-forest {
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    overflow: hidden;
-    padding-left: 50px;
 }
