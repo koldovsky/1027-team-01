@@ -20,6 +20,10 @@
 	--color-header-telephone-text: rgb(249, 130, 80);
 	--color-header-menu-text: black;
 	--rentals-text-info:#bdbdbd;
+	--shop-text-color: rgb(189, 189, 189);
+	--shop-second-text-color: rgba(255, 255, 255, 0.11);
+	--shop-advice-text-color: rgb(192, 227, 209);
+
 }
 
 h2 {

@@ -4,7 +4,7 @@
   background-size: cover;
   padding-top: 105px;
   padding-bottom: 110px;
-  color: #fff;
+  color: var(--getfullanswer-title-color);
 }
 
 .section-food__container {
@@ -65,7 +65,7 @@
 }
 
 .image-card {
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: var(--shop-second-text-color);
   display: block;
   border-radius: 10px;
   padding: 20px;
@@ -88,7 +88,7 @@
 }
 
 .image-card__body {
-  color: rgb(189, 189, 189);
+  color: var(--shop-text-color);
   font-family: 'Circular Std', sans-serif;
   line-height: 26px;
   text-align: center;
@@ -98,7 +98,9 @@
   font-family: 'Circular Std', sans-serif;
   font-size: 11px;
   line-height: 22px;
-  color: rgb(192, 227, 209);
+  color: var(--shop-advice-text-color);
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
