@@ -94,6 +94,13 @@
   text-align: center;
 }
 
+.adviceText {
+  font-family: 'Circular Std', sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  color: rgb(192, 227, 209);
+}
+
 @media screen and (min-width: 768px) {
   .section-food__columns {
     grid-template-columns: 1fr 1fr;
