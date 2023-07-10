@@ -112,6 +112,7 @@
 }
 
 .modal-content img {
+    margin-top: 30px;
     margin: 0 auto;
     display: block;
 }
