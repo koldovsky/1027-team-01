@@ -1,17 +1,17 @@
-<section class="section-order-a-call">
+ <section class="section-order-a-call">
     <div class="container-call">
         <h2>Yosemite Vacation Cabin Rental</h2>
         <h3>Plan your next vacation and enjoy the nature around you!</h3>
         <!--<form>-->
-        <div class="md-textbox">
-            <input oninput="handleChange(event)" id="input-name" type="text" required />
+        <div class="md-input">
+            <input oninput="handleChange(value)" id="input-names" type="text" required />
             <span class="material-symbols-outlined"></span>
-            <label for="input-name">Name*</label>
+            <label for="input-names">Name*</label>
         </div>
-        <div class="md-textbox">
-            <input oninput="handleChange(event)" id="input-phone" type="tel" required />
+        <div class="md-input">
+            <input oninput="handleChange(value)" id="input-phones" type="tel" required />
             <span class="material-symbols-outlined"></span>
-            <label for="input-phone">Phone number*</label>
+            <label for="input-phones">Phone number*</label>
         </div>
         <button type="submit">Order a call</button>
         <!--</form>-->
@@ -19,7 +19,7 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <img src="img/icon_call.svg" width="34" alt="icon">
+            <img src="img/icon-call.svg" width="34" alt="icon">
             <h2>Thank you!</h2>
             <p>We will contact you shortly.</p>
             <button id="okButton">OK</button>

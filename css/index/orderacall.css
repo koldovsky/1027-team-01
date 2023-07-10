@@ -1,6 +1,6 @@
-/*
+
  .section-order-a-call {
-     background-image: url("background_orderacall.jpeg");
+     background-image: url("../../img/background-orderacall.jpeg");
      background-size: 100%;
      background-position: center center;
      background-repeat: no-repeat;
@@ -10,13 +10,10 @@
      justify-content: flex-end;
  }
 
-body {
-    margin: 0;
-}
 
 .container-call {
-    width: 400px;
-    height: 380px;
+    width: 470px;
+    height: 446px;
     margin: auto;
     padding: 35px;
     background-color: #ffffff;
@@ -27,6 +24,7 @@ body {
     gap: 8px;
     margin-left: -25%;
     transform: translateX(-50%);
+    justify-content: center;
 }
 
 .container-call h2 {
@@ -116,7 +114,8 @@ body {
 
 .modal-content img {
     margin-top: 30px;
-    fill: #f98250;
+    margin: 0 auto;
+    display: block;
 }
 
 .modal-content h2 {
@@ -179,14 +178,14 @@ body {
     transition: background-color 0.3s;
 }
 
-/* Input Styling */
-.md-textbox {
+
+.md-input {
     margin: 10px;
     position: relative;
     font-family: 'Circular Std', sans-serif;
 }
 
-.md-textbox :is(label, span) {
+.md-input :is(label, span) {
     position: absolute;
     top: 50%;
     translate: 0 -50%;
@@ -195,18 +194,18 @@ body {
     transition: 0.3s;
 }
 
-.md-textbox > label {
+.md-input > label {
     left: 10px;
     translate: 0 -50%;
     padding: 4px 8px;
 }
 
-.md-textbox > span {
+.md-input > span {
     right: 16px;
     font-size: 28px;
 }
 
-.md-textbox > input {
+.md-input > input {
     height: 56px;
     width: 250px;
     padding-left: 16px;
@@ -218,7 +217,7 @@ body {
     font-size: 16px;
 }
 
-.md-textbox > select {
+.md-input > select {
     height: 56px;
     width: 350px;
     padding-left: 12px;
@@ -231,8 +230,7 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
-.md-textbox input:focus {
+.md-input input:focus {
     border-color: blue;
 }
 
-*/
