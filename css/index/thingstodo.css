@@ -50,6 +50,7 @@
 	height:50%;
 	margin-top: 40px;
 	border-radius: 4%;
+	align-items: center;
 }
 .thingstodo_row {
 	display:flex;
