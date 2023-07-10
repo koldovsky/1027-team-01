@@ -1,6 +1,6 @@
-/*
+
  .section-order-a-call {
-     background-image: url("background_orderacall.jpeg");
+     background-image: url("../../img/background_orderacall.jpeg");
      background-size: 100%;
      background-position: center center;
      background-repeat: no-repeat;
@@ -10,10 +10,7 @@
      justify-content: flex-end;
  }
 
-body {
-    margin: 0;
-}
-
+/*
 .container-call {
     width: 400px;
     height: 380px;
