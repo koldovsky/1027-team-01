@@ -77,3 +77,10 @@ function setActiveLink(link) {
     });
     link.classList.add('active');
   }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".photo-gallery__image");
+    images.forEach(function(image) {
+      image.style.display = "block"; // Зробити зображення видимими
+    });
+  });
