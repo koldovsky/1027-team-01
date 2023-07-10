@@ -1,0 +1,24 @@
+.footer__container {
+padding: 80px 24px 15px 24px;
+}
+
+.footer__items-logo {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    fill: #599673;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__logo img{
+    width: 142px;
+    height: 62.52px;
+}
