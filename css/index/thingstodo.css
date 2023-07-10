@@ -52,6 +52,7 @@
 	margin-top: 40px;
 	border-radius: 4%;
 	justify-content: center;
+	object-fit: cover;
 }
 .thingstodo_imagecard{
 	background-color: #fff;
