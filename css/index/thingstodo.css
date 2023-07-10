@@ -3,7 +3,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	justify-content: center;
 }
 
 .thingstodo_title {
@@ -44,6 +43,7 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
+	justify-content: center;
 }
 .thingstodo_img {
 	object-fit: cover;
