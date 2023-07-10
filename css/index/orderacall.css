@@ -1,83 +1,85 @@
 
  .section-order-a-call {
      background-image: url("../../img/background-orderacall.jpeg");
-     background-size: 100%;
+     background-size: cover;
      background-position: center center;
-     background-repeat: no-repeat;
-     height: 100vh;
-     display: grid;
-     overflow: hidden;
-     justify-content: flex-end;
  }
-
+.test {
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 .container-call {
-    width: 470px;
-    height: 446px;
     margin: auto;
-    padding: 35px;
+    padding-left: 24px;
+    padding-right: 24px;
     background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-rows: auto auto auto 1fr auto;
-    gap: 8px;
-    margin-left: -25%;
-    transform: translateX(-50%);
-    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-call h2 {
     color: #282520;
     text-align: center;
     font-family: 'Circular Std', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 35px;
+    line-height: 30,8px;
+    padding-left: 31px;
+    padding-right: 31px;
+    
+    
+
 }
 
-.container-call h3 {
+.container-call p {
     color: #848484;
     font-size: 16px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: 75;
+    font-weight: 400;
     margin-top: 5px;
     margin-bottom: 8px;
-    text-indent: 27px;
-    padding-right: 20px;
+    padding-left: 31px;
+    padding-right: 31px;
+    
 }
 
 .container-call input[type="text"],
 .container-call input[type="tel"],
 .container-call input[type="number"],
 .container-call select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+
     border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 34px;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    
 }
 
 .container-call button {
     background-color: #f98250;
     color: #fff;
     text-align: center;
-    padding: 15px 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 56px;
+    margin-bottom: 35px;
+    margin-left: 31px;
+    margin-right: 31px;
     border: none;
     cursor: pointer;
-    height: 56px;
-    width: 100%;
-    border-radius: 15px;
+    border-radius: 34px;
     font-family: 'Circular Std', sans-serif;
     font-size: 18px;
     font-weight: bold;
     transition: background-color 0.5s;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    max-width: 100%;
 }
 
 .container-call button:hover {
