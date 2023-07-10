@@ -45,6 +45,7 @@
     max-width: 1200px;
     margin: auto;
 	justify-content: center;
+	background-color: #fff;
 }
 .thingstodo_img {
 	object-fit: cover;
