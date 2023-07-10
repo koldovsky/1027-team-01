@@ -114,8 +114,7 @@
 .modal-content img {
     margin-top: 30px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 
 .modal-content h2 {
