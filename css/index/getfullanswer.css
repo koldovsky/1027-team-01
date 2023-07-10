@@ -1,7 +1,7 @@
 .slide-in {
     transform: translateX(10%);
     opacity: 0;
-    transition: transform 2s ease, opacity 2s ease;
+    transition: transform 2s ease-out, opacity 2s ease-out;
   }
   
   .slide-in.active {
@@ -15,8 +15,8 @@
 }
 
 .getfullanswer__elements {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 24px;
     padding-right: 24px;
 }

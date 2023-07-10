@@ -1,15 +1,13 @@
 .ourfacilities {
     background-image: url("../../img/backgroundourfacilities.jpg");
     background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 .ourfacilities__elements {
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .clock {
@@ -19,7 +17,9 @@
 .ourfacilities__title h2 {
     /*  font-family: 'Circular Std', sans-serif; */
     font-size: 34px;
-    letter-spacing: 2px;
+    letter-spacing: -0.714px;
+    line-height: 40.12px;
+    font-weight: 700;
     vertical-align: baseline;
     font-weight: bold;
     text-align: center;
@@ -28,15 +28,66 @@
 }
 
 .ourfacilities__photo-container {
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    aspect-ratio: 2.43/1;
+    margin-top: 45px;
+}
+
+.ourfacilities__photo-container img {
+    object-position: 50% 69%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .ourfacilities__photo-forest {
     display: flex;
     justify-content: center;
     border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .ourfacilities__elements {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .ourfacilities__title h2 {
+        font-size: 39px;
+        letter-spacing: -0.819px;
+        line-height: 46.02px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ourfacilities__elements {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .ourfacilities__title h2 {
+        font-size: 44px;
+        letter-spacing: -0.924px;
+        line-height: 51.92px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .ourfacilities__elements {
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .ourfacilities__title h2 {
+        font-size: 44px;
+        letter-spacing: -0.924px;
+        line-height: 51.92px;
+    }
+}
+
+@media (min-width: 2560) {
+    .ourfacilities__elements {
+        padding-left: 695px;
+        padding-right: 695px;
+    }
 }
