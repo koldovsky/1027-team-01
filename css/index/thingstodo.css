@@ -48,8 +48,7 @@
 }
 .thingstodo_img {
 	object-fit: cover;
-	min-width: 60%;
-	min-height: 60%;
+	width: 100%;
 	margin-top: 40px;
 	border-radius: 4%;
 	justify-content: center;
