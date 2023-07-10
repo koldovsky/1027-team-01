@@ -12,6 +12,7 @@
 .getfullanswer {
     background-image: url("../../img/backgroundgetgullanswer.jpg");
     background-size: cover;
+    margin-left: -10px;
 }
 
 .getfullanswer__elements {
@@ -118,7 +119,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .getfullanswer__elements {
         padding-top: 180px;
         padding-bottom: 180px;
