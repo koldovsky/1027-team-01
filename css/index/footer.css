@@ -85,3 +85,19 @@
 .footer__end {
     font-size: 12px;
 }
+
+@media (min-width: 768px) {
+    .footer__container {
+        flex-basis: 0;
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        padding: 40px 10px 15px 10px;
+    }
+
+    .footer__menu {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-between;
+    }
+}
