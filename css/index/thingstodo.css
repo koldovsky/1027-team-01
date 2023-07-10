@@ -53,6 +53,11 @@
 	border-radius: 4%;
 	justify-content: center;
 }
+.thingstodo_image card{
+	background-color: #fff;
+	display: block;
+	border-radius: 10px;
+}
 .thingstodo_row {
 	display:flex;
 	flex-direction: row;
