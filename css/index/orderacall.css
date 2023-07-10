@@ -10,7 +10,7 @@
      justify-content: flex-end;
  }
 
-/*
+
 .container-call {
     width: 400px;
     height: 380px;
@@ -176,14 +176,14 @@
     transition: background-color 0.3s;
 }
 
-/* Input Styling */
-.md-textbox {
+
+.md-input {
     margin: 10px;
     position: relative;
     font-family: 'Circular Std', sans-serif;
 }
 
-.md-textbox :is(label, span) {
+.md-input :is(label, span) {
     position: absolute;
     top: 50%;
     translate: 0 -50%;
@@ -192,18 +192,18 @@
     transition: 0.3s;
 }
 
-.md-textbox > label {
+.md-input > label {
     left: 10px;
     translate: 0 -50%;
     padding: 4px 8px;
 }
 
-.md-textbox > span {
+.md-input > span {
     right: 16px;
     font-size: 28px;
 }
 
-.md-textbox > input {
+.md-input > input {
     height: 56px;
     width: 250px;
     padding-left: 16px;
@@ -215,7 +215,7 @@
     font-size: 16px;
 }
 
-.md-textbox > select {
+.md-input > select {
     height: 56px;
     width: 350px;
     padding-left: 12px;
@@ -228,8 +228,7 @@
     font-family: 'Circular Std', sans-serif;
 }
 
-.md-textbox input:focus {
+.md-input input:focus {
     border-color: blue;
 }
 
-*/
