@@ -48,12 +48,11 @@
 }
 .thingstodo_img {
 	object-fit: cover;
-	width: 60%;
-	height: 60%;
+	min-width: 60%;
+	min-height: 60%;
 	margin-top: 40px;
 	border-radius: 4%;
 	justify-content: center;
-	color:#ffff;
 }
 .thingstodo_row {
 	display:flex;
