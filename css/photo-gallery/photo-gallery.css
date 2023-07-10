@@ -1,6 +1,7 @@
 @import "../global.css";
 @import "../index/header.css";
 @import "../index/header-burger.css";
+@import "../index/footer.css";
 @import "../fonts.css";
 
 .gallery__title {
