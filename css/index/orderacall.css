@@ -24,6 +24,7 @@
     gap: 8px;
     margin-left: -25%;
     transform: translateX(-50%);
+    justify-content: center;
 }
 
 .container-call h2 {
