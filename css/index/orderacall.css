@@ -1,0 +1,238 @@
+/*
+ .section-order-a-call {
+     background-image: url("background_orderacall.jpeg");
+     background-size: 100%;
+     background-position: center center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     display: grid;
+     overflow: hidden;
+     justify-content: flex-end;
+ }
+
+body {
+    margin: 0;
+}
+
+.container-call {
+    width: 400px;
+    height: 380px;
+    margin: auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
+    gap: 8px;
+    margin-left: -25%;
+    transform: translateX(-50%);
+}
+
+.container-call h2 {
+    color: #282520;
+    text-align: center;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.container-call h3 {
+    color: #848484;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 75;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-indent: 27px;
+    padding-right: 20px;
+}
+
+.container-call input[type="text"],
+.container-call input[type="tel"],
+.container-call input[type="number"],
+.container-call select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-call button {
+    background-color: #f98250;
+    color: #fff;
+    text-align: center;
+    padding: 15px 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    cursor: pointer;
+    height: 56px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.container-call button:hover {
+    background-color: #599673;
+    transition: background-color 0.3s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 320px;
+    height: 270px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-content img {
+    margin-top: 30px;
+    fill: #f98250;
+}
+
+.modal-content h2 {
+    color: #282520;
+    text-align: center;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-indent: 27px;
+    padding-right: 20px;
+}
+
+.modal-content p {
+    color: #848484;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 75;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content button {
+    background-color: #f98250;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    height: 15px;
+    width: 65%;
+    border-radius: 15px;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    margin: 0 auto;
+}
+
+.modal-content button:hover {
+    background-color: #599673;
+    transition: background-color 0.3s;
+}
+
+/* Input Styling */
+.md-textbox {
+    margin: 10px;
+    position: relative;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.md-textbox :is(label, span) {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    pointer-events: none;
+    color: #888888;
+    transition: 0.3s;
+}
+
+.md-textbox > label {
+    left: 10px;
+    translate: 0 -50%;
+    padding: 4px 8px;
+}
+
+.md-textbox > span {
+    right: 16px;
+    font-size: 28px;
+}
+
+.md-textbox > input {
+    height: 56px;
+    width: 250px;
+    padding-left: 16px;
+    border: 2px solid #888888;
+    border-radius: 13px;
+    outline: none;
+    background: #2825201f;
+    color: #000000;
+    font-size: 16px;
+}
+
+.md-textbox > select {
+    height: 56px;
+    width: 350px;
+    padding-left: 12px;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    color: #888888;
+    font-size: 16px;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.md-textbox input:focus {
+    border-color: blue;
+}
+
+*/

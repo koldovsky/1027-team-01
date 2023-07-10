@@ -1,6 +1,7 @@
 //import { reservationCheck } from './js/reservation.js';
 document.addEventListener('partialsLoaded', () => {
     import('./shop.js');
+    import('./orderacall.js');
     import('./testimonials.js');
     import('./adventures.js');
     import('./burger-menu.js');
