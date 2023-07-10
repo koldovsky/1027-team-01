@@ -2,12 +2,12 @@
     transform: translateX(10%);
     opacity: 0;
     transition: transform 2s ease-out, opacity 2s ease-out;
-  }
-  
-  .slide-in.active {
+}
+
+.slide-in.active {
     transform: translateX(0);
     opacity: 1;
-  }
+}
 
 .getfullanswer {
     background-image: url("../../img/backgroundgetgullanswer.jpg");
@@ -97,5 +97,32 @@
     .getfullanswer__reservation .button {
         margin-top: 0px;
         margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .getfullanswer__elements {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .getfullanswer__elements {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .getfullanswer__elements {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 135px;
+        padding-right: 135px;
     }
 }

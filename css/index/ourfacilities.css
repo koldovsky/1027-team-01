@@ -28,7 +28,21 @@
 }
 
 .ourfacilities__photo-container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;пше
+}
+
+.ourfacilities__photo-container img {
     width: 100%;
+    object-position: 50% 69%;
+    aspect-ratio: 2.43/1;
+    object-fit: cover;
+}
+
+/*
+.ourfacilities__photo-container {
     aspect-ratio: 2.43/1;
     margin-top: 45px;
 }
@@ -39,6 +53,7 @@
     height: 100%;
     object-fit: cover;
 }
+*/
 
 .ourfacilities__photo-forest {
     display: flex;
@@ -85,7 +100,7 @@
     }
 }
 
-@media (min-width: 2560) {
+@media (min-width: 2560px) {
     .ourfacilities__elements {
         padding-left: 695px;
         padding-right: 695px;
