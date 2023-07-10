@@ -56,11 +56,12 @@
 .thingstodo_imagecard{
 	background-color: #fff;
 	display: block;
-	border-radius: 10px;
+	border-radius: 4px;
 }
 .thingstodo_row {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
 	margin:auto;
+	gap: 20px;
 }
