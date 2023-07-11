@@ -56,7 +56,6 @@
 	justify-content: center;
 	flex: 1 0 33.33%;*/
 	width: 100%;
-    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
 }
