@@ -59,7 +59,7 @@
 	width: 100%;
 	display: flex;
 	border-radius: 4px;
-	justify-content: center;
+	gap: 20px;
 }
 .thingstodo_row {
 	display:flex;
