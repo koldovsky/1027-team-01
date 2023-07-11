@@ -57,9 +57,9 @@
 .thingstodo_imagecard{
 	background-color: #fff;
 	width: 100%;
-	display: flex;
-	border-radius: 4px;
-	gap: 20px;
+	display: block;
+    border-radius: 10px;
+    padding: 20px;
 }
 .thingstodo_row {
 	display:flex;
