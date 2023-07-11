@@ -51,6 +51,8 @@
 	object-fit: cover;
 	width: 90%;
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
