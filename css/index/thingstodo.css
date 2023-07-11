@@ -19,6 +19,7 @@
 	text-align: center;
 	font-family: 'Circular Std', serif;
 	line-height: 35px;
+	padding-top: 20px;
 }
 
 .thingstodo_price {
@@ -27,6 +28,7 @@
 	font-style: normal;
 	text-align: center;
 	font-weight: bold;
+	padding-top: 20px;
 }
 
 .thingstodo_description {
