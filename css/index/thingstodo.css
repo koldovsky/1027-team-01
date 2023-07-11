@@ -72,11 +72,6 @@
 	border-radius: 10px;
 	display: block;
 	width: 100%;
-	/*padding: 20px;
-	align-items: center;
-	object-fit: cover;
-	max-width: 100%;
-	height: auto;*/
 }
 
 .thingstodo_row {
@@ -86,4 +81,9 @@
 	margin: auto;
 	gap: 20px;
 	padding: 20px;
+}
+@media (min-width: 992px) {
+	.thingstodo_imagecard {
+		padding: 70px 35px;
+	}
 }
