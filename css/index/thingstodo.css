@@ -48,10 +48,10 @@
 }
 .thingstodo_img {
 	object-fit: cover;
-	width: 80%;
+	width: 90%;
 	margin-top: 40px;
 	border-radius: 4%;
-	justify-content: center;
+	align-items: center;
 	object-fit: cover;
 }
 .thingstodo_imagecard{
@@ -60,6 +60,7 @@
 	display: block;
     border-radius: 10px;
     padding: 20px;
+	justify-content: center;
 }
 .thingstodo_row {
 	display:flex;
