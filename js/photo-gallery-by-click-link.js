@@ -14,6 +14,17 @@ const spaContainer = document.querySelector(".photo-gallery__container--spa");
 
 const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const randomLink = getRandom([summerLink, winterLink, springLink, autumnLink, fishingLink, spaLink]);
+const navItems = document.querySelectorAll('.photo-gallery__nav-item');
+
+navItems.forEach(item => {
+  item.addEventListener('mouseenter', function() {
+    this.classList.add('hover');
+  });
+
+  item.addEventListener('mouseleave', function() {
+    this.classList.remove('hover');
+  });
+});
 
 summerLink.addEventListener("click", function(event) {
   event.preventDefault();
@@ -81,6 +92,6 @@ function setActiveLink(link) {
   document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll(".photo-gallery__image");
     images.forEach(function(image) {
-      image.style.display = "block"; // Зробити зображення видимими
+      image.style.display = "block";
     });
   });
