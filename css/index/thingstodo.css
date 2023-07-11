@@ -59,12 +59,12 @@
 .thingstodo_imagecard{
 	background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+	display: block;
+    /*padding: 20px;
 	align-items: center;
 	object-fit: cover;
-	display: block;
 	max-width: 100%;
-	height: auto;
+	height: auto;*/
 }
 .thingstodo_row {
 	display:flex;
