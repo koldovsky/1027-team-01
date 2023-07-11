@@ -82,8 +82,3 @@
 	gap: 20px;
 	padding: 20px;
 }
-@media (min-width: 992px) {
-	.thingstodo_imagecard {
-		padding: 70px 35px;
-	}
-}
