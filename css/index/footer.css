@@ -2,22 +2,41 @@
     padding: 80px 24px 15px 24px;
 }
 
-.footer__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer__logo img {
-    width: 142px;
-    height: 62.52px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 142px;
+    max-height: 62.52px;
 }
 
 .footer__menu {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer__menu-item a {
+    padding: 10px;
+}
+
+.about__rental {
+    margin-top: 20px;
+}
+
+.footer__end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
 }
 
 .about__rental {
@@ -29,38 +48,15 @@
     color: #282250;
     text-decoration: none;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer__menu a:hover {
     color: #f98250;
 }
 
-.footer__menu-item {
-    padding-top: 30px;
-}
-
-.footer__container h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.footer__follow-us-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
 .footer__menu-title {
     font-size: 22px;
     font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .footer__item-logo {
@@ -70,34 +66,84 @@
 }
 
 .footer__items-logo {
-    margin: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.footer__end {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.footer__menu-title {
+    padding: 10px;
+    margin: 10px;
 }
 
-.footer__end {
+.footer__end h3 {
     font-size: 12px;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
-    .footer__container {
-        flex-basis: 0;
+    .footer__menu-title {
+        padding: 0px;
+        font-size: 23px;
+    }
+
+    .footer__items-logo {
+        padding: 0px;
         display: flex;
-        gap: 15px;
-        justify-content: space-between;
-        padding: 40px 10px 15px 10px;
+        justify-content: center;
+    }
+
+    .footer__end h3 {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .about__rental {
+        margin-top: 0px;
     }
 
     .footer__menu {
-        flex-direction: row;
-        gap: 15px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
+        flex-direction: row;
+        text-align: right;
+        align-items: flex-start;
+    }
+
+    .footer__items-logo {
+        flex-wrap: wrap;
+    }
+
+    .footer__end {
+        padding: 15px 40px 15px 40px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer__menu-item {
+        align-items: baseline;
+        padding: 0%;
+    }
+
+    .footer__menu-item a {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__menu-title {
+        font-size: 25px;
     }
 }
