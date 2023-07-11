@@ -45,8 +45,6 @@
     max-width: 1200px;
     margin: auto;
 	justify-content: center;
-	flex: 1 0 33.33%;
-	border: 1px solid #ccc;
 }
 .thingstodo_img {
 	object-fit: cover;
@@ -56,6 +54,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex: 1 0 33.33%;
+	border: 1px solid #ccc;
 }
 .thingstodo_imagecard{
 	background-color: #fff;
