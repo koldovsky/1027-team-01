@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.photo-gallery__title-page {
+  display: none;
+}
+
 .gallery {
   background-image: url("../../img/photo-gallery/background-gallery.jpg");
   background-repeat: no-repeat;
@@ -47,7 +51,7 @@
   bottom: -2px;
   width: 0;
   height: 2px;
-  background-color: rgba(0, 0, 0, 0.301);
+  background-color: rgba(0, 0, 0, 0.568);
   transition: width 0.5s;
 }
 
@@ -68,10 +72,6 @@
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-  display: none;
-}
-
-.photo-gallery__title-page {
   display: none;
 }
 
